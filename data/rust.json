@@ -1,0 +1,13 @@
+{
+  "name": "Rust",
+  "type": "programming",
+  "color": "#dea584",
+  "extensions": [
+    ".rs",
+    ".rs.in"
+  ],
+  "aceMode": "rust",
+  "codemirrorMode": "rust",
+  "codemirrorMimeType": "text/x-rustsrc",
+  "languageId": 327
+}

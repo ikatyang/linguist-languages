@@ -1,0 +1,10 @@
+{
+  "name": "Agda",
+  "type": "programming",
+  "color": "#315665",
+  "extensions": [
+    ".agda"
+  ],
+  "aceMode": "text",
+  "languageId": 12
+}

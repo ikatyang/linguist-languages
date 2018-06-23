@@ -1,0 +1,16 @@
+{
+  "name": "SourcePawn",
+  "type": "programming",
+  "color": "#5c7611",
+  "aliases": [
+    "sourcemod"
+  ],
+  "extensions": [
+    ".sp",
+    ".inc",
+    ".sma"
+  ],
+  "tmScope": "source.sp",
+  "aceMode": "text",
+  "languageId": 354
+}

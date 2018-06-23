@@ -1,0 +1,10 @@
+{
+  "name": "Lean",
+  "type": "programming",
+  "extensions": [
+    ".lean",
+    ".hlean"
+  ],
+  "aceMode": "text",
+  "languageId": 197
+}

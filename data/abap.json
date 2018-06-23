@@ -1,0 +1,10 @@
+{
+  "name": "ABAP",
+  "type": "programming",
+  "color": "#E8274B",
+  "extensions": [
+    ".abap"
+  ],
+  "aceMode": "abap",
+  "languageId": 1
+}

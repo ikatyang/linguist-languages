@@ -1,0 +1,16 @@
+{
+  "name": "Matlab",
+  "type": "programming",
+  "color": "#e16737",
+  "aliases": [
+    "octave"
+  ],
+  "extensions": [
+    ".matlab",
+    ".m"
+  ],
+  "aceMode": "matlab",
+  "codemirrorMode": "octave",
+  "codemirrorMimeType": "text/x-octave",
+  "languageId": 225
+}

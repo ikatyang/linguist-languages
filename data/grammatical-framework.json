@@ -1,0 +1,18 @@
+{
+  "name": "Grammatical Framework",
+  "type": "programming",
+  "aliases": [
+    "gf"
+  ],
+  "wrap": false,
+  "extensions": [
+    ".gf"
+  ],
+  "searchable": true,
+  "color": "#79aa7a",
+  "tmScope": "source.haskell",
+  "aceMode": "haskell",
+  "codemirrorMode": "haskell",
+  "codemirrorMimeType": "text/x-haskell",
+  "languageId": 137
+}

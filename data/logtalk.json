@@ -1,0 +1,10 @@
+{
+  "name": "Logtalk",
+  "type": "programming",
+  "extensions": [
+    ".lgt",
+    ".logtalk"
+  ],
+  "aceMode": "text",
+  "languageId": 210
+}

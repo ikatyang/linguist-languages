@@ -1,0 +1,11 @@
+{
+  "name": "JSONLD",
+  "type": "data",
+  "group": "JavaScript",
+  "aceMode": "javascript",
+  "extensions": [
+    ".jsonld"
+  ],
+  "tmScope": "source.js",
+  "languageId": 176
+}

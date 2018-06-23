@@ -1,0 +1,9 @@
+{
+  "name": "mupad",
+  "type": "programming",
+  "extensions": [
+    ".mu"
+  ],
+  "aceMode": "text",
+  "languageId": 416
+}

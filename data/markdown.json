@@ -1,0 +1,24 @@
+{
+  "name": "Markdown",
+  "type": "prose",
+  "aliases": [
+    "pandoc"
+  ],
+  "aceMode": "markdown",
+  "codemirrorMode": "gfm",
+  "codemirrorMimeType": "text/x-gfm",
+  "wrap": true,
+  "extensions": [
+    ".md",
+    ".markdown",
+    ".mdown",
+    ".mdwn",
+    ".mkd",
+    ".mkdn",
+    ".mkdown",
+    ".ronn",
+    ".workbook"
+  ],
+  "tmScope": "source.gfm",
+  "languageId": 222
+}

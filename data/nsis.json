@@ -1,0 +1,12 @@
+{
+  "name": "NSIS",
+  "type": "programming",
+  "extensions": [
+    ".nsi",
+    ".nsh"
+  ],
+  "aceMode": "text",
+  "codemirrorMode": "nsis",
+  "codemirrorMimeType": "text/x-nsis",
+  "languageId": 242
+}

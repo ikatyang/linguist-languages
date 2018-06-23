@@ -1,0 +1,15 @@
+{
+  "name": "Stata",
+  "type": "programming",
+  "extensions": [
+    ".do",
+    ".ado",
+    ".doh",
+    ".ihlp",
+    ".mata",
+    ".matah",
+    ".sthlp"
+  ],
+  "aceMode": "text",
+  "languageId": 358
+}

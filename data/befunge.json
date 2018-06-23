@@ -1,0 +1,9 @@
+{
+  "name": "Befunge",
+  "type": "programming",
+  "extensions": [
+    ".befunge"
+  ],
+  "aceMode": "text",
+  "languageId": 30
+}

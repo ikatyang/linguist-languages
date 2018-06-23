@@ -1,0 +1,12 @@
+{
+  "name": "G-code",
+  "type": "data",
+  "extensions": [
+    ".g",
+    ".gco",
+    ".gcode"
+  ],
+  "tmScope": "source.gcode",
+  "aceMode": "gcode",
+  "languageId": 117
+}

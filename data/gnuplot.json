@@ -1,0 +1,17 @@
+{
+  "name": "Gnuplot",
+  "type": "programming",
+  "color": "#f0a9f0",
+  "extensions": [
+    ".gp",
+    ".gnu",
+    ".gnuplot",
+    ".plot",
+    ".plt"
+  ],
+  "interpreters": [
+    "gnuplot"
+  ],
+  "aceMode": "text",
+  "languageId": 131
+}

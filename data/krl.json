@@ -1,0 +1,11 @@
+{
+  "name": "KRL",
+  "type": "programming",
+  "color": "#28431f",
+  "extensions": [
+    ".krl"
+  ],
+  "tmScope": "none",
+  "aceMode": "text",
+  "languageId": 186
+}

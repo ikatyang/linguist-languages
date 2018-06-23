@@ -1,0 +1,21 @@
+{
+  "name": "Pascal",
+  "type": "programming",
+  "color": "#E3F171",
+  "extensions": [
+    ".pas",
+    ".dfm",
+    ".dpr",
+    ".inc",
+    ".lpr",
+    ".pascal",
+    ".pp"
+  ],
+  "interpreters": [
+    "instantfpc"
+  ],
+  "aceMode": "pascal",
+  "codemirrorMode": "pascal",
+  "codemirrorMimeType": "text/x-pascal",
+  "languageId": 281
+}

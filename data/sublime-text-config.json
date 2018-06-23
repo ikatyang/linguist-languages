@@ -1,0 +1,25 @@
+{
+  "name": "Sublime Text Config",
+  "type": "data",
+  "group": "JSON",
+  "tmScope": "source.js",
+  "aceMode": "javascript",
+  "codemirrorMode": "javascript",
+  "codemirrorMimeType": "text/javascript",
+  "extensions": [
+    ".sublime-build",
+    ".sublime-commands",
+    ".sublime-completions",
+    ".sublime-keymap",
+    ".sublime-macro",
+    ".sublime-menu",
+    ".sublime-mousemap",
+    ".sublime-project",
+    ".sublime-settings",
+    ".sublime-theme",
+    ".sublime-workspace",
+    ".sublime_metrics",
+    ".sublime_session"
+  ],
+  "languageId": 423
+}

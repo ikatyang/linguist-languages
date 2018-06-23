@@ -1,0 +1,15 @@
+{
+  "name": "Go",
+  "type": "programming",
+  "color": "#375eab",
+  "aliases": [
+    "golang"
+  ],
+  "extensions": [
+    ".go"
+  ],
+  "aceMode": "golang",
+  "codemirrorMode": "go",
+  "codemirrorMimeType": "text/x-go",
+  "languageId": 132
+}

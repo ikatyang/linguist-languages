@@ -1,6 +1,6 @@
 {
   "name": "linguist-languages",
-  "version": "0.0.0",
+  "version": "6.2.0",
   "description": "JSON format data from github/linguist:lib/linguist/languages.yml",
   "keywords": [
     "data",

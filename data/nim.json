@@ -1,0 +1,12 @@
+{
+  "name": "Nim",
+  "type": "programming",
+  "color": "#37775b",
+  "extensions": [
+    ".nim",
+    ".nimrod"
+  ],
+  "aceMode": "text",
+  "tmScope": "source.nim",
+  "languageId": 249
+}

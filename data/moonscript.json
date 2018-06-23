@@ -1,0 +1,12 @@
+{
+  "name": "MoonScript",
+  "type": "programming",
+  "extensions": [
+    ".moon"
+  ],
+  "interpreters": [
+    "moon"
+  ],
+  "aceMode": "text",
+  "languageId": 238
+}

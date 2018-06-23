@@ -1,0 +1,14 @@
+{
+  "name": "IGOR Pro",
+  "type": "programming",
+  "extensions": [
+    ".ipf"
+  ],
+  "aliases": [
+    "igor",
+    "igorpro"
+  ],
+  "tmScope": "none",
+  "aceMode": "text",
+  "languageId": 162
+}

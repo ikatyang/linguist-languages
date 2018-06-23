@@ -1,0 +1,11 @@
+{
+  "name": "VCL",
+  "type": "programming",
+  "color": "#0298c3",
+  "extensions": [
+    ".vcl"
+  ],
+  "tmScope": "source.varnish.vcl",
+  "aceMode": "text",
+  "languageId": 384
+}

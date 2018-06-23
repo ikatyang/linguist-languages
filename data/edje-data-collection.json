@@ -1,0 +1,12 @@
+{
+  "name": "Edje Data Collection",
+  "type": "data",
+  "extensions": [
+    ".edc"
+  ],
+  "tmScope": "source.json",
+  "aceMode": "json",
+  "codemirrorMode": "javascript",
+  "codemirrorMimeType": "application/json",
+  "languageId": 342840478
+}

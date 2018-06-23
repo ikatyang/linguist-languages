@@ -1,0 +1,34 @@
+{
+  "name": "JSON",
+  "type": "data",
+  "tmScope": "source.json",
+  "group": "JavaScript",
+  "aceMode": "json",
+  "codemirrorMode": "javascript",
+  "codemirrorMimeType": "application/json",
+  "searchable": false,
+  "extensions": [
+    ".json",
+    ".avsc",
+    ".geojson",
+    ".gltf",
+    ".JSON-tmLanguage",
+    ".jsonl",
+    ".tfstate",
+    ".tfstate.backup",
+    ".topojson",
+    ".webapp",
+    ".webmanifest"
+  ],
+  "filenames": [
+    ".arcconfig",
+    ".htmlhintrc",
+    ".jscsrc",
+    ".jshintrc",
+    ".tern-config",
+    ".tern-project",
+    "composer.lock",
+    "mcmod.info"
+  ],
+  "languageId": 174
+}

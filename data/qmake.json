@@ -1,0 +1,13 @@
+{
+  "name": "QMake",
+  "type": "programming",
+  "extensions": [
+    ".pro",
+    ".pri"
+  ],
+  "interpreters": [
+    "qmake"
+  ],
+  "aceMode": "text",
+  "languageId": 306
+}

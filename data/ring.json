@@ -1,0 +1,11 @@
+{
+  "name": "Ring",
+  "type": "programming",
+  "color": "#0e60e3",
+  "extensions": [
+    ".ring"
+  ],
+  "tmScope": "source.ring",
+  "aceMode": "text",
+  "languageId": 431
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Dockerfile",
+  "type": "data",
+  "tmScope": "source.dockerfile",
+  "extensions": [
+    ".dockerfile"
+  ],
+  "filenames": [
+    "Dockerfile"
+  ],
+  "aceMode": "dockerfile",
+  "codemirrorMode": "dockerfile",
+  "codemirrorMimeType": "text/x-dockerfile",
+  "languageId": 89
+}

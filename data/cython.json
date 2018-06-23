@@ -1,0 +1,17 @@
+{
+  "name": "Cython",
+  "type": "programming",
+  "group": "Python",
+  "extensions": [
+    ".pyx",
+    ".pxd",
+    ".pxi"
+  ],
+  "aliases": [
+    "pyrex"
+  ],
+  "aceMode": "text",
+  "codemirrorMode": "python",
+  "codemirrorMimeType": "text/x-cython",
+  "languageId": 79
+}

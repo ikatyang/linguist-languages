@@ -1,0 +1,12 @@
+{
+  "name": "Unix Assembly",
+  "type": "programming",
+  "group": "Assembly",
+  "extensions": [
+    ".s",
+    ".ms"
+  ],
+  "tmScope": "source.assembly.unix",
+  "aceMode": "assembly_x86",
+  "languageId": 120
+}

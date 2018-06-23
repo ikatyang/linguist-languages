@@ -1,0 +1,10 @@
+{
+  "name": "Processing",
+  "type": "programming",
+  "color": "#0096D8",
+  "extensions": [
+    ".pde"
+  ],
+  "aceMode": "text",
+  "languageId": 294
+}

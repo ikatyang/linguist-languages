@@ -1,0 +1,22 @@
+{
+  "name": "Mathematica",
+  "type": "programming",
+  "extensions": [
+    ".mathematica",
+    ".cdf",
+    ".m",
+    ".ma",
+    ".mt",
+    ".nb",
+    ".nbp",
+    ".wl",
+    ".wlt"
+  ],
+  "aliases": [
+    "mma"
+  ],
+  "aceMode": "text",
+  "codemirrorMode": "mathematica",
+  "codemirrorMimeType": "text/x-mathematica",
+  "languageId": 224
+}

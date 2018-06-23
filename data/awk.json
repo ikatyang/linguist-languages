@@ -1,0 +1,19 @@
+{
+  "name": "Awk",
+  "type": "programming",
+  "extensions": [
+    ".awk",
+    ".auk",
+    ".gawk",
+    ".mawk",
+    ".nawk"
+  ],
+  "interpreters": [
+    "awk",
+    "gawk",
+    "mawk",
+    "nawk"
+  ],
+  "aceMode": "text",
+  "languageId": 28
+}

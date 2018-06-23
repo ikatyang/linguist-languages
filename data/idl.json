@@ -1,0 +1,13 @@
+{
+  "name": "IDL",
+  "type": "programming",
+  "color": "#a3522f",
+  "extensions": [
+    ".pro",
+    ".dlm"
+  ],
+  "aceMode": "text",
+  "codemirrorMode": "idl",
+  "codemirrorMimeType": "text/x-idl",
+  "languageId": 161
+}

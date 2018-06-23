@@ -1,0 +1,14 @@
+{
+  "name": "Hack",
+  "type": "programming",
+  "aceMode": "php",
+  "codemirrorMode": "php",
+  "codemirrorMimeType": "application/x-httpd-php",
+  "extensions": [
+    ".hh",
+    ".php"
+  ],
+  "tmScope": "text.html.php",
+  "color": "#878787",
+  "languageId": 153
+}

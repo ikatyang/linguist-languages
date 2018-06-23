@@ -1,0 +1,22 @@
+{
+  "name": "Tcl",
+  "type": "programming",
+  "color": "#e4cc98",
+  "extensions": [
+    ".tcl",
+    ".adp",
+    ".tm"
+  ],
+  "filenames": [
+    "owh",
+    "starfield"
+  ],
+  "interpreters": [
+    "tclsh",
+    "wish"
+  ],
+  "aceMode": "tcl",
+  "codemirrorMode": "tcl",
+  "codemirrorMimeType": "text/x-tcl",
+  "languageId": 367
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Cirru",
+  "type": "programming",
+  "color": "#ccccff",
+  "aceMode": "cirru",
+  "extensions": [
+    ".cirru"
+  ],
+  "languageId": 58
+}

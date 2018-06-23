@@ -1,0 +1,13 @@
+{
+  "name": "BlitzMax",
+  "type": "programming",
+  "color": "#cd6400",
+  "extensions": [
+    ".bmx"
+  ],
+  "aliases": [
+    "bmax"
+  ],
+  "aceMode": "text",
+  "languageId": 35
+}

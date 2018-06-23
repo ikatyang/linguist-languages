@@ -1,0 +1,9 @@
+{
+  "name": "Opa",
+  "type": "programming",
+  "extensions": [
+    ".opa"
+  ],
+  "aceMode": "text",
+  "languageId": 261
+}

@@ -1,0 +1,14 @@
+{
+  "name": "LSL",
+  "type": "programming",
+  "aceMode": "lsl",
+  "extensions": [
+    ".lsl",
+    ".lslp"
+  ],
+  "interpreters": [
+    "lsl"
+  ],
+  "color": "#3d9970",
+  "languageId": 193
+}

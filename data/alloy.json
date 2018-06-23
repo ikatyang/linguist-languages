@@ -1,0 +1,10 @@
+{
+  "name": "Alloy",
+  "type": "programming",
+  "color": "#64C800",
+  "extensions": [
+    ".als"
+  ],
+  "aceMode": "text",
+  "languageId": 13
+}

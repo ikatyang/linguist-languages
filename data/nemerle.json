@@ -1,0 +1,10 @@
+{
+  "name": "Nemerle",
+  "type": "programming",
+  "color": "#3d3c6e",
+  "extensions": [
+    ".n"
+  ],
+  "aceMode": "text",
+  "languageId": 243
+}

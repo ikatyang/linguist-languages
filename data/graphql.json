@@ -1,0 +1,11 @@
+{
+  "name": "GraphQL",
+  "type": "data",
+  "extensions": [
+    ".graphql",
+    ".gql"
+  ],
+  "tmScope": "source.graphql",
+  "aceMode": "text",
+  "languageId": 139
+}

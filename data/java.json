@@ -1,0 +1,12 @@
+{
+  "name": "Java",
+  "type": "programming",
+  "aceMode": "java",
+  "codemirrorMode": "clike",
+  "codemirrorMimeType": "text/x-java",
+  "color": "#b07219",
+  "extensions": [
+    ".java"
+  ],
+  "languageId": 181
+}

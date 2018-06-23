@@ -1,0 +1,14 @@
+{
+  "name": "HCL",
+  "type": "programming",
+  "extensions": [
+    ".hcl",
+    ".tf",
+    ".tfvars"
+  ],
+  "aceMode": "ruby",
+  "codemirrorMode": "ruby",
+  "codemirrorMimeType": "text/x-ruby",
+  "tmScope": "source.terraform",
+  "languageId": 144
+}

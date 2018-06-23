@@ -1,0 +1,11 @@
+{
+  "name": "YARA",
+  "type": "data",
+  "aceMode": "text",
+  "extensions": [
+    ".yar",
+    ".yara"
+  ],
+  "tmScope": "source.yara",
+  "languageId": 805122868
+}

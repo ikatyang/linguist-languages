@@ -1,0 +1,24 @@
+{
+  "name": "INI",
+  "type": "data",
+  "extensions": [
+    ".ini",
+    ".cfg",
+    ".prefs",
+    ".pro",
+    ".properties"
+  ],
+  "filenames": [
+    ".editorconfig",
+    ".gitconfig",
+    "buildozer.spec"
+  ],
+  "tmScope": "source.ini",
+  "aliases": [
+    "dosini"
+  ],
+  "aceMode": "ini",
+  "codemirrorMode": "properties",
+  "codemirrorMimeType": "text/x-properties",
+  "languageId": 163
+}

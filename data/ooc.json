@@ -1,0 +1,10 @@
+{
+  "name": "ooc",
+  "type": "programming",
+  "color": "#b0b77e",
+  "extensions": [
+    ".ooc"
+  ],
+  "aceMode": "text",
+  "languageId": 418
+}

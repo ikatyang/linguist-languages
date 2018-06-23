@@ -1,0 +1,10 @@
+{
+  "name": "LLVM",
+  "type": "programming",
+  "extensions": [
+    ".ll"
+  ],
+  "aceMode": "text",
+  "color": "#185619",
+  "languageId": 191
+}

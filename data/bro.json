@@ -1,0 +1,9 @@
+{
+  "name": "Bro",
+  "type": "programming",
+  "extensions": [
+    ".bro"
+  ],
+  "aceMode": "text",
+  "languageId": 40
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Vala",
+  "type": "programming",
+  "color": "#fbe5cd",
+  "extensions": [
+    ".vala",
+    ".vapi"
+  ],
+  "aceMode": "vala",
+  "languageId": 386
+}

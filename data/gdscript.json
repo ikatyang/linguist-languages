@@ -1,0 +1,10 @@
+{
+  "name": "GDScript",
+  "type": "programming",
+  "extensions": [
+    ".gd"
+  ],
+  "tmScope": "source.gdscript",
+  "aceMode": "text",
+  "languageId": 123
+}

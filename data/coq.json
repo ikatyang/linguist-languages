@@ -1,0 +1,10 @@
+{
+  "name": "Coq",
+  "type": "programming",
+  "extensions": [
+    ".coq",
+    ".v"
+  ],
+  "aceMode": "text",
+  "languageId": 69
+}

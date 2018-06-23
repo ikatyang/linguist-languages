@@ -1,0 +1,9 @@
+{
+  "name": "Xtend",
+  "type": "programming",
+  "extensions": [
+    ".xtend"
+  ],
+  "aceMode": "text",
+  "languageId": 406
+}

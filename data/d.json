@@ -1,0 +1,13 @@
+{
+  "name": "D",
+  "type": "programming",
+  "color": "#ba595e",
+  "extensions": [
+    ".d",
+    ".di"
+  ],
+  "aceMode": "d",
+  "codemirrorMode": "d",
+  "codemirrorMimeType": "text/x-d",
+  "languageId": 80
+}

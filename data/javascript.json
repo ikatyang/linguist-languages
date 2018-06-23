@@ -1,0 +1,42 @@
+{
+  "name": "JavaScript",
+  "type": "programming",
+  "tmScope": "source.js",
+  "aceMode": "javascript",
+  "codemirrorMode": "javascript",
+  "codemirrorMimeType": "text/javascript",
+  "color": "#f1e05a",
+  "aliases": [
+    "js",
+    "node"
+  ],
+  "extensions": [
+    ".js",
+    "._js",
+    ".bones",
+    ".es",
+    ".es6",
+    ".frag",
+    ".gs",
+    ".jake",
+    ".jsb",
+    ".jscad",
+    ".jsfl",
+    ".jsm",
+    ".jss",
+    ".mjs",
+    ".njs",
+    ".pac",
+    ".sjs",
+    ".ssjs",
+    ".xsjs",
+    ".xsjslib"
+  ],
+  "filenames": [
+    "Jakefile"
+  ],
+  "interpreters": [
+    "node"
+  ],
+  "languageId": 183
+}

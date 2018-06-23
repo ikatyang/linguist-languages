@@ -1,0 +1,10 @@
+{
+  "name": "LilyPond",
+  "type": "programming",
+  "extensions": [
+    ".ly",
+    ".ily"
+  ],
+  "aceMode": "text",
+  "languageId": 200
+}

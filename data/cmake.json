@@ -1,0 +1,15 @@
+{
+  "name": "CMake",
+  "type": "programming",
+  "extensions": [
+    ".cmake",
+    ".cmake.in"
+  ],
+  "filenames": [
+    "CMakeLists.txt"
+  ],
+  "aceMode": "text",
+  "codemirrorMode": "cmake",
+  "codemirrorMimeType": "text/x-cmake",
+  "languageId": 47
+}

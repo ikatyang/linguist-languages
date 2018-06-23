@@ -1,0 +1,13 @@
+{
+  "name": "Haml",
+  "group": "HTML",
+  "type": "markup",
+  "extensions": [
+    ".haml",
+    ".haml.deface"
+  ],
+  "aceMode": "haml",
+  "codemirrorMode": "haml",
+  "codemirrorMimeType": "text/x-haml",
+  "languageId": 154
+}

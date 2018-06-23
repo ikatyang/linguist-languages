@@ -1,0 +1,14 @@
+{
+  "name": "CSON",
+  "type": "data",
+  "group": "CoffeeScript",
+  "tmScope": "source.coffee",
+  "aceMode": "coffee",
+  "codemirrorMode": "coffeescript",
+  "codemirrorMimeType": "text/x-coffeescript",
+  "searchable": false,
+  "extensions": [
+    ".cson"
+  ],
+  "languageId": 424
+}

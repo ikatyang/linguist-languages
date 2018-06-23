@@ -1,0 +1,14 @@
+{
+  "name": "Hy",
+  "type": "programming",
+  "aceMode": "text",
+  "color": "#7790B2",
+  "extensions": [
+    ".hy"
+  ],
+  "aliases": [
+    "hylang"
+  ],
+  "tmScope": "none",
+  "languageId": 159
+}

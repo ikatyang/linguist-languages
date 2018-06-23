@@ -1,0 +1,14 @@
+{
+  "name": "POV-Ray SDL",
+  "type": "programming",
+  "aliases": [
+    "pov-ray",
+    "povray"
+  ],
+  "extensions": [
+    ".pov",
+    ".inc"
+  ],
+  "aceMode": "text",
+  "languageId": 275
+}

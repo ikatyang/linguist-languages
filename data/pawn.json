@@ -1,0 +1,12 @@
+{
+  "name": "PAWN",
+  "type": "programming",
+  "color": "#dbb284",
+  "extensions": [
+    ".pwn",
+    ".inc"
+  ],
+  "tmScope": "source.pawn",
+  "aceMode": "text",
+  "languageId": 271
+}

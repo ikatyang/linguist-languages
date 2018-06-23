@@ -1,0 +1,13 @@
+{
+  "name": "Chapel",
+  "type": "programming",
+  "color": "#8dc63f",
+  "aliases": [
+    "chpl"
+  ],
+  "extensions": [
+    ".chpl"
+  ],
+  "aceMode": "text",
+  "languageId": 55
+}
