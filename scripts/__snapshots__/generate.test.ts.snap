@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`run: <cwd>/data/test-test-2.json 1`] = `
+{
+  "name": "Test Test 2",
+  "type": "programming",
+  "color": "#E8274B",
+  "extensions": [
+    ".abap"
+  ],
+  "aceMode": "abap",
+  "wrap": true,
+  "languageId": 1
+}
+`;
+
+exports[`run: <cwd>/data/test1.json 1`] = `
+{
+  "name": "Test1",
+  "type": "programming",
+  "color": "#814CCC",
+  "aliases": [
+    "hello"
+  ],
+  "extensions": [
+    ".bsl",
+    ".os"
+  ],
+  "tmScope": "source.bsl",
+  "aceMode": "text",
+  "languageId": 0
+}
+`;
+
+exports[`run: <cwd>/lib/index.d.ts 1`] = `
+type LanguageName =
+  | "Test1"
+  | "Test Test 2";
+
+declare const LinguistLanguages: Record<LanguageName, LinguistLanguages.Language>;
+
+declare namespace LinguistLanguages {
+  interface Language {
+    name: string;
+    type: string;
+    color: string;
+    aliases?: string[];
+    extensions: string[];
+    tmScope?: string;
+    aceMode: string;
+    languageId: number;
+    wrap?: boolean;
+  }
+}
+
+export = LinguistLanguages;
+`;
+
+exports[`run: <cwd>/lib/index.js 1`] = `
+module.exports = {
+  "Test1": require("../data/test1"),
+  "Test Test 2": require("../data/test-test-2")
+};
+`;
