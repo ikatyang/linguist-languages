@@ -39,7 +39,7 @@
     "js-yaml": "3.12.0",
     "linguist": "github/linguist#v6.2.0",
     "make-dir": "1.3.0",
-    "prettier": "1.13.5",
+    "prettier": "1.13.6",
     "ts-jest": "22.4.6",
     "ts-node": "7.0.0",
     "tslint": "5.10.0",
