@@ -28,7 +28,7 @@
   "devDependencies": {
     "@types/camelcase": "4.1.0",
     "@types/del": "3.0.1",
-    "@types/jest": "23.1.1",
+    "@types/jest": "23.1.2",
     "@types/js-yaml": "3.11.1",
     "@types/make-dir": "1.0.3",
     "@types/node": "10.3.5",
