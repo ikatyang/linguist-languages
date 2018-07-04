@@ -29,7 +29,7 @@
     "@types/camelcase": "4.1.0",
     "@types/del": "3.0.1",
     "@types/jest": "23.1.4",
-    "@types/js-yaml": "3.11.1",
+    "@types/js-yaml": "3.11.2",
     "@types/make-dir": "1.0.3",
     "@types/node": "10.5.1",
     "camelcase": "5.0.0",
