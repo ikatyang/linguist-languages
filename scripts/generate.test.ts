@@ -5,7 +5,7 @@ const fakeLanguagesYml = `
 Test1:
   type: programming
   color: "#814CCC"
-  alias:
+  aliases:
   - hello
   extensions:
   - ".bsl"
