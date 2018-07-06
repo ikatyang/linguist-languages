@@ -49,6 +49,6 @@
   "files": [
     "/lib/**/*",
     "/data/**/*",
-    "/LICENSE-3RD-PARTY.txt"
+    "/ThirdPartyNoticeText.txt"
   ]
 }
