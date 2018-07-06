@@ -4,10 +4,6 @@
   "extensions": [
     ".json5"
   ],
-  "filenames": [
-    ".babelrc",
-    ".jslintrc"
-  ],
   "tmScope": "source.js",
   "aceMode": "javascript",
   "codemirrorMode": "javascript",

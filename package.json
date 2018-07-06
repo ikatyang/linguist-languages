@@ -1,6 +1,6 @@
 {
   "name": "linguist-languages",
-  "version": "6.2.0",
+  "version": "6.2.1-dev.20180706",
   "description": "JSON format data from linguist languages.yml",
   "keywords": [
     "data",
@@ -37,7 +37,7 @@
     "jest": "23.3.0",
     "jest-snapshot-serializer-raw": "1.0.0",
     "js-yaml": "3.12.0",
-    "linguist": "github/linguist#v6.2.0",
+    "linguist": "github/linguist#1996fd8e095cd55c9d1702813a7df01bc5159c50",
     "make-dir": "1.3.0",
     "prettier": "1.13.7",
     "ts-jest": "22.4.6",

@@ -1,7 +1,6 @@
 {
   "name": "NewLisp",
   "type": "programming",
-  "lexer": "NewLisp",
   "color": "#87AED7",
   "extensions": [
     ".nl",

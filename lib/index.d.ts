@@ -190,6 +190,7 @@ type LanguageName =
   | "J"
   | "JFlex"
   | "JSON"
+  | "JSON with Comments"
   | "JSON5"
   | "JSONLD"
   | "JSONiq"
@@ -402,7 +403,6 @@ type LanguageName =
   | "Stata"
   | "Stylus"
   | "SubRip Text"
-  | "Sublime Text Config"
   | "SugarSS"
   | "SuperCollider"
   | "Swift"
@@ -496,7 +496,6 @@ declare namespace LinguistLanguages {
     filenames?: string[];
     wrap?: boolean;
     searchable?: boolean;
-    lexer?: string;
   }
 }
 

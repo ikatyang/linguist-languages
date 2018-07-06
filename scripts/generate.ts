@@ -53,12 +53,9 @@ export function run(options?: {
 
         return Object.keys(language).reduce(
           (reduced, fieldName) =>
-            Object.assign(
-              reduced,
-              fieldName === "alias"
-                ? { aliases: [].concat(language[fieldName]) }
-                : { [camelcase(fieldName)]: language[fieldName] }
-            ),
+            Object.assign(reduced, {
+              [camelcase(fieldName)]: language[fieldName]
+            }),
           { name }
         );
       }

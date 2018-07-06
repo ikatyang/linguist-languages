@@ -1,11 +1,14 @@
 {
-  "name": "Sublime Text Config",
+  "name": "JSON with Comments",
   "type": "data",
   "group": "JSON",
   "tmScope": "source.js",
   "aceMode": "javascript",
   "codemirrorMode": "javascript",
   "codemirrorMimeType": "text/javascript",
+  "aliases": [
+    "jsonc"
+  ],
   "extensions": [
     ".sublime-build",
     ".sublime-commands",
@@ -20,6 +23,14 @@
     ".sublime-workspace",
     ".sublime_metrics",
     ".sublime_session"
+  ],
+  "filenames": [
+    ".babelrc",
+    ".eslintrc.json",
+    ".jscsrc",
+    ".jshintrc",
+    ".jslintrc",
+    "tsconfig.json"
   ],
   "languageId": 423
 }
