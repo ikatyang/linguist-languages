@@ -2083,10 +2083,9 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-linguist@github/linguist#1996fd8e095cd55c9d1702813a7df01bc5159c50:
+linguist@github/linguist#v6.3.0:
   version "0.0.0"
-  uid "1996fd8e095cd55c9d1702813a7df01bc5159c50"
-  resolved "https://codeload.github.com/github/linguist/tar.gz/1996fd8e095cd55c9d1702813a7df01bc5159c50"
+  resolved "https://codeload.github.com/github/linguist/tar.gz/2942bf9f1bf7a4871167c046c1e27d26cb198200"
 
 load-json-file@^1.0.0:
   version "1.1.0"
