@@ -34,7 +34,7 @@
     "@types/node": "10.9.4",
     "camelcase": "5.0.0",
     "del": "3.0.0",
-    "jest": "23.5.0",
+    "jest": "23.6.0",
     "jest-snapshot-serializer-raw": "1.1.0",
     "js-yaml": "3.12.0",
     "linguist": "github/linguist#v6.3.0",
