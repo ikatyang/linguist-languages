@@ -71,10 +71,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.2.tgz#d77f9faa027cadad9c912cd47f4f8b07b0fb0864"
   integrity sha512-53ElVDSnZeFUUFIYzI8WLQ25IhWzb6vbddNp8UHlXQyU0ET2RhV5zg0NfubzU7iNMh5bBXb0htCzfvrSVNgzaQ==
 
-"@types/node@10.12.4":
-  version "10.12.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.4.tgz#292a86dcfffac3a9f8073f6e29b71c05bbc65c0d"
-  integrity sha512-0aFZiYCvoxyKP/Mg6PvqBb2UtWGIPf63r6rOAvRBrgyJOfanbL60yUH2U4FSpg+Yn6FW+JVYWtzn6hLTy745Fg==
+"@types/node@10.12.5":
+  version "10.12.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.5.tgz#7e7ea1a9b34d2c8d704cb0b755dffbcda34741ad"
+  integrity sha512-GzdHjq3t3eGLMv92Al90Iq+EoLL+86mPfQhuglbBFO7HiLdC/rkt+zrzJJumAiBF6nsrBWhou22rPW663AAyFw==
 
 abab@^2.0.0:
   version "2.0.0"
