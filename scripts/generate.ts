@@ -24,8 +24,7 @@ export function run(options?: {
     read = (filename: string) => fs.readFileSync(filename, "utf8"),
     write = (filename: string, content: string) =>
       fs.writeFileSync(filename, content + "\n")
-  } =
-    options || {};
+  } = options || {};
 
   // istanbul ignore if
   if (clean) {
