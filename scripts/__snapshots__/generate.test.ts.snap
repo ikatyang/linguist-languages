@@ -61,14 +61,31 @@ declare const LinguistLanguages: Record<LanguageName, LinguistLanguages.Language
 declare namespace LinguistLanguages {
   interface Language {
     name: string;
+    /**
+     * Either data, programming, markup, prose, or nil
+     */
     type: string;
     color: string;
+    /**
+     * An Array of additional aliases (implicitly
+     * includes name.downcase)
+     */
     aliases?: string[];
     extensions: string[];
     tmScope?: string;
+    /**
+     * A String name of the Ace Mode used for highlighting whenever
+     * a file is edited. This must match one of the filenames in http://git.io/3XO_Cg.
+     * Use "text" if a mode does not exist.
+     */
     aceMode: string;
     languageId: number;
     wrap?: boolean;
+    /**
+     * Optional field. Only necessary as a replacement for the sample directory name if the
+     * language name is not a valid filename under the Windows filesystem (e.g., if it
+     * contains an asterisk).
+     */
     fsName?: string;
   }
 }

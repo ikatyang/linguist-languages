@@ -41,6 +41,33 @@ export function run(options?: {
     [key: string]: any;
   }
 
+  const descriptions = languagesContent
+    .match(/#\n((?:#.+\n)+?)#\n/)![1]
+    .split("\n")
+    .map(x => x.slice(2))
+    .join("\n")
+    .split(/^(\w+)/m)
+    .slice(1)
+    .reduce(
+      (descriptions, content, index, contents) => {
+        if (index % 2 === 1) {
+          const fieldName = contents[index - 1];
+          const alignmentLength = content.indexOf("-") + 2;
+          descriptions[camelcase(fieldName)] = content
+            .trimRight()
+            .split("\n")
+            .map((x, i) =>
+              x.slice(
+                i === 0 ? alignmentLength : alignmentLength + fieldName.length
+              )
+            )
+            .join("\n");
+        }
+        return descriptions;
+      },
+      {} as { [fieldName: string]: string }
+    );
+
   const languages = (rawLanguage =>
     Object.keys(rawLanguage).map(
       (name: keyof typeof rawLanguage): Language => {
@@ -144,6 +171,14 @@ export function run(options?: {
         Object.keys(fieldTypes)
           .map(
             fieldName =>
+              (fieldName in descriptions
+                ? "/**\n" +
+                  descriptions[fieldName]
+                    .split("\n")
+                    .map(x => ` * ${x}`)
+                    .join("\n") +
+                  "\n */\n"
+                : "") +
               `${fieldName}${
                 fieldRequireds[fieldName] ? "" : "?"
               }: ${createFieldDefinition(fieldTypes[fieldName])};`
