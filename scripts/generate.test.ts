@@ -21,6 +21,17 @@ Test Test 2:
   ace_mode: abap
   wrap: true
   language_id: 1
+F*:
+  fs_name: Fstar
+  type: programming
+  color: "#572e30"
+  aliases:
+  - fstar
+  extensions:
+  - ".fst"
+  tm_scope: source.fstar
+  ace_mode: text
+  language_id: 336943375
 `;
 
 const writes: [string, string][] = [];

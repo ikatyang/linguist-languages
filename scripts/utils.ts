@@ -1,5 +1,3 @@
-import * as fs from "fs";
-
 export type BaseType = boolean | number | string;
 export type BaseTypeOf<T> = T extends boolean
   ? "boolean"

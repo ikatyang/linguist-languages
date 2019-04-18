@@ -37,6 +37,7 @@ export function run(options?: {
 
   interface Language {
     name: string;
+    fsName?: string;
     [key: string]: any;
   }
 
@@ -164,7 +165,7 @@ export function run(options?: {
   });
 
   function getDataBasename(language: Language) {
-    return language.name.replace(/ /g, "-").toLowerCase();
+    return language.fsName || language.name;
   }
 }
 

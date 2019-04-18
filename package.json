@@ -1,7 +1,7 @@
 {
   "name": "linguist-languages",
   "version": "6.3.0",
-  "description": "JSON format data from linguist languages.yml",
+  "description": "Linguist languages.yml in JSON format",
   "keywords": [
     "data",
     "json",
