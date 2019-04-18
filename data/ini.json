@@ -4,13 +4,12 @@
   "extensions": [
     ".ini",
     ".cfg",
+    ".lektorproject",
     ".prefs",
     ".pro",
     ".properties"
   ],
   "filenames": [
-    ".editorconfig",
-    ".gitconfig",
     "buildozer.spec"
   ],
   "tmScope": "source.ini",

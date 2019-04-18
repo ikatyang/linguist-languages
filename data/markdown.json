@@ -13,11 +13,15 @@
     ".markdown",
     ".mdown",
     ".mdwn",
+    ".mdx",
     ".mkd",
     ".mkdn",
     ".mkdown",
     ".ronn",
     ".workbook"
+  ],
+  "filenames": [
+    "contents.lr"
   ],
   "tmScope": "source.gfm",
   "languageId": 222

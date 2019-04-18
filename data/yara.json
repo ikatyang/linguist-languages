@@ -1,6 +1,7 @@
 {
   "name": "YARA",
-  "type": "data",
+  "type": "programming",
+  "color": "#220000",
   "aceMode": "text",
   "extensions": [
     ".yar",

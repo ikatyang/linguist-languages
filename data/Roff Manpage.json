@@ -1,9 +1,8 @@
 {
-  "name": "Roff",
+  "name": "Roff Manpage",
   "type": "markup",
-  "color": "#ecdebe",
+  "group": "Roff",
   "extensions": [
-    ".roff",
     ".1",
     ".1in",
     ".1m",
@@ -22,33 +21,12 @@
     ".7",
     ".8",
     ".9",
-    ".l",
     ".man",
-    ".mdoc",
-    ".me",
-    ".ms",
-    ".n",
-    ".nr",
-    ".rno",
-    ".tmac"
-  ],
-  "filenames": [
-    "mmn",
-    "mmt"
+    ".mdoc"
   ],
   "tmScope": "text.roff",
-  "aliases": [
-    "groff",
-    "man",
-    "manpage",
-    "man page",
-    "man-page",
-    "mdoc",
-    "nroff",
-    "troff"
-  ],
   "aceMode": "text",
   "codemirrorMode": "troff",
   "codemirrorMimeType": "text/troff",
-  "languageId": 141
+  "languageId": 612669833
 }

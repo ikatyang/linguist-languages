@@ -22,6 +22,7 @@
     ".zsh"
   ],
   "filenames": [
+    ".bash_aliases",
     ".bash_history",
     ".bash_logout",
     ".bash_profile",
@@ -36,6 +37,7 @@
     ".zshrc",
     "9fs",
     "PKGBUILD",
+    "bash_aliases",
     "bash_logout",
     "bash_profile",
     "bashrc",

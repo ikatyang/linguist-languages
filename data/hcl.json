@@ -4,7 +4,11 @@
   "extensions": [
     ".hcl",
     ".tf",
-    ".tfvars"
+    ".tfvars",
+    ".workflow"
+  ],
+  "aliases": [
+    "terraform"
   ],
   "aceMode": "ruby",
   "codemirrorMode": "ruby",

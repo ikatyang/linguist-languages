@@ -26,6 +26,7 @@ type LanguageName =
   | "AsciiDoc"
   | "AspectJ"
   | "Assembly"
+  | "Asymptote"
   | "Augeas"
   | "AutoHotkey"
   | "AutoIt"
@@ -56,6 +57,7 @@ type LanguageName =
   | "CSS"
   | "CSV"
   | "CWeb"
+  | "Cabal Config"
   | "Cap'n Proto"
   | "CartoCSS"
   | "Ceylon"
@@ -105,10 +107,12 @@ type LanguageName =
   | "ECL"
   | "ECLiPSe"
   | "EJS"
+  | "EML"
   | "EQ"
   | "Eagle"
   | "Easybuild"
   | "Ecere Projects"
+  | "EditorConfig"
   | "Edje Data Collection"
   | "Eiffel"
   | "Elixir"
@@ -117,6 +121,8 @@ type LanguageName =
   | "EmberScript"
   | "Erlang"
   | "F#"
+  | "F*"
+  | "FIGlet Font"
   | "FLUX"
   | "Factor"
   | "Fancy"
@@ -144,7 +150,10 @@ type LanguageName =
   | "Gerber Image"
   | "Gettext Catalog"
   | "Gherkin"
+  | "Git Attributes"
+  | "Git Config"
   | "Glyph"
+  | "Glyph Bitmap Distribution Format"
   | "Gnuplot"
   | "Go"
   | "Golo"
@@ -157,6 +166,7 @@ type LanguageName =
   | "Graphviz (DOT)"
   | "Groovy"
   | "Groovy Server Pages"
+  | "HAProxy"
   | "HCL"
   | "HLSL"
   | "HTML"
@@ -165,6 +175,7 @@ type LanguageName =
   | "HTML+EEX"
   | "HTML+ERB"
   | "HTML+PHP"
+  | "HTML+Razor"
   | "HTTP"
   | "HXML"
   | "Hack"
@@ -181,6 +192,7 @@ type LanguageName =
   | "INI"
   | "IRC log"
   | "Idris"
+  | "Ignore List"
   | "Inform 7"
   | "Inno Setup"
   | "Io"
@@ -197,11 +209,13 @@ type LanguageName =
   | "JSX"
   | "Jasmin"
   | "Java"
+  | "Java Properties"
   | "Java Server Pages"
   | "JavaScript"
   | "Jison"
   | "Jison Lex"
   | "Jolie"
+  | "Jsonnet"
   | "Julia"
   | "Jupyter Notebook"
   | "KRL"
@@ -214,6 +228,7 @@ type LanguageName =
   | "LLVM"
   | "LOLCODE"
   | "LSL"
+  | "LTspice Symbol"
   | "LabVIEW"
   | "Lasso"
   | "Latte"
@@ -237,6 +252,7 @@ type LanguageName =
   | "M"
   | "M4"
   | "M4Sugar"
+  | "MATLAB"
   | "MAXScript"
   | "MQL4"
   | "MQL5"
@@ -248,7 +264,6 @@ type LanguageName =
   | "Marko"
   | "Mask"
   | "Mathematica"
-  | "Matlab"
   | "Maven POM"
   | "Max"
   | "MediaWiki"
@@ -259,6 +274,7 @@ type LanguageName =
   | "Mirah"
   | "Modelica"
   | "Modula-2"
+  | "Modula-3"
   | "Module Management System"
   | "Monkey"
   | "Moocode"
@@ -299,7 +315,6 @@ type LanguageName =
   | "Oxygene"
   | "Oz"
   | "P4"
-  | "PAWN"
   | "PHP"
   | "PLSQL"
   | "PLpgSQL"
@@ -310,6 +325,7 @@ type LanguageName =
   | "Parrot Assembly"
   | "Parrot Internal Representation"
   | "Pascal"
+  | "Pawn"
   | "Pep8"
   | "Perl"
   | "Perl 6"
@@ -319,6 +335,7 @@ type LanguageName =
   | "PigLatin"
   | "Pike"
   | "Pod"
+  | "Pod 6"
   | "PogoScript"
   | "Pony"
   | "PostCSS"
@@ -340,6 +357,7 @@ type LanguageName =
   | "Python traceback"
   | "QML"
   | "QMake"
+  | "Quake"
   | "R"
   | "RAML"
   | "RDoc"
@@ -361,9 +379,11 @@ type LanguageName =
   | "Regular Expression"
   | "Ren'Py"
   | "RenderScript"
+  | "Rich Text Format"
   | "Ring"
   | "RobotFramework"
   | "Roff"
+  | "Roff Manpage"
   | "Rouge"
   | "Ruby"
   | "Rust"
@@ -390,6 +410,7 @@ type LanguageName =
   | "ShellSession"
   | "Shen"
   | "Slash"
+  | "Slice"
   | "Slim"
   | "Smali"
   | "Smalltalk"
@@ -443,8 +464,10 @@ type LanguageName =
   | "Web Ontology Language"
   | "WebAssembly"
   | "WebIDL"
+  | "Windows Registry Entries"
   | "World of Warcraft Addon Data"
   | "X BitMap"
+  | "X Font Directory Index"
   | "X PixMap"
   | "X10"
   | "XC"
@@ -460,14 +483,20 @@ type LanguageName =
   | "YAML"
   | "YANG"
   | "YARA"
+  | "YASnippet"
   | "Yacc"
+  | "ZAP"
+  | "ZIL"
   | "Zephir"
+  | "Zig"
   | "Zimpl"
   | "desktop"
   | "eC"
   | "edn"
   | "fish"
+  | "mcfunction"
   | "mupad"
+  | "nanorc"
   | "nesC"
   | "ooc"
   | "q"
@@ -482,19 +511,80 @@ declare const LinguistLanguages: Record<LanguageName, LinguistLanguages.Language
 declare namespace LinguistLanguages {
   interface Language {
     name: string;
+    /**
+     * Either data, programming, markup, prose, or nil
+     */
     type: string;
+    /**
+     * CSS hex color to represent the language. Only used if type is "programming" or "markup".
+     */
     color?: string;
+    /**
+     * An Array of associated extensions (the first one is
+     * considered the primary extension, the others should be
+     * listed alphabetically)
+     */
     extensions?: string[];
+    /**
+     * The TextMate scope that represents this programming
+     * language. This should match one of the scopes listed in
+     * the grammars.yml file. Use "none" if there is no grammar
+     * for this language.
+     */
     tmScope?: string;
+    /**
+     * A String name of the Ace Mode used for highlighting whenever
+     * a file is edited. This must match one of the filenames in http://git.io/3XO_Cg.
+     * Use "text" if a mode does not exist.
+     */
     aceMode: string;
+    /**
+     * Integer used as a language-name-independent indexed field so that we can rename
+     * languages in Linguist without reindexing all the code on GitHub. Must not be
+     * changed for existing languages without the explicit permission of GitHub staff.
+     */
     languageId: number;
+    /**
+     * An Array of additional aliases (implicitly
+     * includes name.downcase)
+     */
     aliases?: string[];
+    /**
+     * A String name of the CodeMirror Mode used for highlighting whenever a file is edited.
+     * This must match a mode from https://git.io/vi9Fx
+     */
     codemirrorMode?: string;
+    /**
+     * A String name of the file mime type used for highlighting whenever a file is edited.
+     * This should match the `mime` associated with the mode from https://git.io/f4SoQ
+     */
     codemirrorMimeType?: string;
+    /**
+     * An Array of associated interpreters
+     */
     interpreters?: string[];
+    /**
+     * Name of the parent language. Languages in a group are counted
+     * in the statistics as the parent language.
+     */
     group?: string;
+    /**
+     * An Array of filenames commonly associated with the language
+     */
     filenames?: string[];
+    /**
+     * Boolean wrap to enable line wrapping (default: false)
+     */
     wrap?: boolean;
+    /**
+     * Optional field. Only necessary as a replacement for the sample directory name if the
+     * language name is not a valid filename under the Windows filesystem (e.g., if it
+     * contains an asterisk).
+     */
+    fsName?: string;
+    /**
+     * Boolean flag to enable searching (defaults to true)
+     */
     searchable?: boolean;
   }
 }

@@ -30,6 +30,7 @@
     ".jscsrc",
     ".jshintrc",
     ".jslintrc",
+    "jsconfig.json",
     "tsconfig.json"
   ],
   "languageId": 423

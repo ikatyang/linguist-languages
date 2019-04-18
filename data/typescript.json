@@ -5,6 +5,9 @@
   "aliases": [
     "ts"
   ],
+  "interpreters": [
+    "node"
+  ],
   "extensions": [
     ".ts",
     ".tsx"

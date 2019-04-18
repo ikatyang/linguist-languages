@@ -1,7 +1,7 @@
 {
   "name": "Dockerfile",
   "type": "programming",
-  "color": "#0db7ed",
+  "color": "#384d54",
   "tmScope": "source.dockerfile",
   "extensions": [
     ".dockerfile"

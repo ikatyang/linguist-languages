@@ -6,6 +6,7 @@
   "codemirrorMimeType": "text/x-sql",
   "tmScope": "source.sql",
   "extensions": [
+    ".pgsql",
     ".sql"
   ],
   "languageId": 274

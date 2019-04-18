@@ -4,7 +4,13 @@
   "color": "#37775b",
   "extensions": [
     ".nim",
-    ".nimrod"
+    ".nim.cfg",
+    ".nimble",
+    ".nimrod",
+    ".nims"
+  ],
+  "filenames": [
+    "nim.cfg"
   ],
   "aceMode": "text",
   "tmScope": "source.nim",

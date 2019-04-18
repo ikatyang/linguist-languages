@@ -9,7 +9,9 @@
     "nvim"
   ],
   "extensions": [
-    ".vim"
+    ".vim",
+    ".vba",
+    ".vmb"
   ],
   "filenames": [
     ".gvimrc",

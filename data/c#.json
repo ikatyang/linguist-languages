@@ -12,7 +12,6 @@
   "extensions": [
     ".cs",
     ".cake",
-    ".cshtml",
     ".csx"
   ],
   "languageId": 42

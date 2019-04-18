@@ -6,9 +6,12 @@
   "extensions": [
     ".hy"
   ],
+  "interpreters": [
+    "hy"
+  ],
   "aliases": [
     "hylang"
   ],
-  "tmScope": "none",
+  "tmScope": "source.hy",
   "languageId": 159
 }
