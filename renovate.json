@@ -1,3 +1,9 @@
 {
-  "extends": "ikatyang:library"
+  "extends": "ikatyang:library",
+  "packages": [
+    {
+      "packageName": "linguist",
+      "automerge": false
+    }
+  ]
 }
