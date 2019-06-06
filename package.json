@@ -34,7 +34,7 @@
     "jest": "24.8.0",
     "jest-snapshot-serializer-raw": "1.1.0",
     "js-yaml": "3.13.1",
-    "linguist": "github/linguist#v7.4.0",
+    "linguist": "github/linguist#v7.5.1",
     "make-dir": "3.0.0",
     "prettier": "1.17.1",
     "ts-jest": "24.0.2",
