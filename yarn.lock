@@ -2281,10 +2281,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-linguist@github/linguist#v7.4.0:
+linguist@github/linguist#v7.5.1:
   version "0.0.0"
-  uid "9116c90fcbb82ac03b4b33c58cfbde1fcf745e99"
-  resolved "https://codeload.github.com/github/linguist/tar.gz/9116c90fcbb82ac03b4b33c58cfbde1fcf745e99"
+  uid "3a1bd3c3d3e741a8aaec4704f782e06f5cd2a00d"
+  resolved "https://codeload.github.com/github/linguist/tar.gz/3a1bd3c3d3e741a8aaec4704f782e06f5cd2a00d"
 
 load-json-file@^4.0.0:
   version "4.0.0"
