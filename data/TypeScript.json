@@ -6,11 +6,11 @@
     "ts"
   ],
   "interpreters": [
-    "node"
+    "deno",
+    "ts-node"
   ],
   "extensions": [
-    ".ts",
-    ".tsx"
+    ".ts"
   ],
   "tmScope": "source.ts",
   "aceMode": "typescript",

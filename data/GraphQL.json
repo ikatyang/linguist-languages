@@ -3,7 +3,8 @@
   "type": "data",
   "extensions": [
     ".graphql",
-    ".gql"
+    ".gql",
+    ".graphqls"
   ],
   "tmScope": "source.graphql",
   "aceMode": "text",

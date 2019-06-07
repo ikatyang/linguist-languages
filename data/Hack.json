@@ -8,7 +8,7 @@
     ".hh",
     ".php"
   ],
-  "tmScope": "text.html.php",
+  "tmScope": "source.hack",
   "color": "#878787",
   "languageId": 153
 }

@@ -1,7 +1,7 @@
 {
   "name": "SCSS",
   "type": "markup",
-  "tmScope": "source.scss",
+  "tmScope": "source.css.scss",
   "group": "CSS",
   "aceMode": "scss",
   "codemirrorMode": "css",

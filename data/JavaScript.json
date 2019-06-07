@@ -36,7 +36,13 @@
     "Jakefile"
   ],
   "interpreters": [
-    "node"
+    "chakra",
+    "d8",
+    "js",
+    "node",
+    "rhino",
+    "v8",
+    "v8-shell"
   ],
   "languageId": 183
 }

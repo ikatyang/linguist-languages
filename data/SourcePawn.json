@@ -7,8 +7,7 @@
   ],
   "extensions": [
     ".sp",
-    ".inc",
-    ".sma"
+    ".inc"
   ],
   "tmScope": "source.sp",
   "aceMode": "text",

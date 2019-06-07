@@ -1,16 +1,13 @@
 {
-  "name": "Grammatical Framework",
+  "name": "Dhall",
   "type": "programming",
-  "aliases": [
-    "gf"
-  ],
+  "color": "#dfafff",
   "extensions": [
-    ".gf"
+    ".dhall"
   ],
-  "color": "#79aa7a",
-  "tmScope": "source.gf",
+  "tmScope": "source.haskell",
   "aceMode": "haskell",
   "codemirrorMode": "haskell",
   "codemirrorMimeType": "text/x-haskell",
-  "languageId": 137
+  "languageId": 793969321
 }

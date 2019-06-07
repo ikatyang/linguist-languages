@@ -4,7 +4,8 @@
   "color": "#dbb284",
   "extensions": [
     ".pwn",
-    ".inc"
+    ".inc",
+    ".sma"
   ],
   "tmScope": "source.pawn",
   "aceMode": "text",
