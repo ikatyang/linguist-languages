@@ -8,6 +8,7 @@
   "interpreters": [
     "io"
   ],
+  "tmScope": "source.io",
   "aceMode": "io",
   "languageId": 168
 }

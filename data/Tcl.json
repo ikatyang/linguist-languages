@@ -15,6 +15,7 @@
     "tclsh",
     "wish"
   ],
+  "tmScope": "source.tcl",
   "aceMode": "tcl",
   "codemirrorMode": "tcl",
   "codemirrorMimeType": "text/x-tcl",

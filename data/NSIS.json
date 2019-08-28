@@ -5,6 +5,7 @@
     ".nsi",
     ".nsh"
   ],
+  "tmScope": "source.nsis",
   "aceMode": "text",
   "codemirrorMode": "nsis",
   "codemirrorMimeType": "text/x-nsis",

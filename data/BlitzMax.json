@@ -8,6 +8,7 @@
   "aliases": [
     "bmax"
   ],
+  "tmScope": "source.blitzmax",
   "aceMode": "text",
   "languageId": 35
 }

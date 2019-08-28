@@ -5,6 +5,7 @@
     ".coq",
     ".v"
   ],
+  "tmScope": "source.coq",
   "aceMode": "text",
   "languageId": 69
 }

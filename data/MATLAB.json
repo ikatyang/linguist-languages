@@ -9,6 +9,7 @@
     ".matlab",
     ".m"
   ],
+  "tmScope": "source.matlab",
   "aceMode": "matlab",
   "codemirrorMode": "octave",
   "codemirrorMimeType": "text/x-octave",

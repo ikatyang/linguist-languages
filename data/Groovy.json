@@ -1,6 +1,7 @@
 {
   "name": "Groovy",
   "type": "programming",
+  "tmScope": "source.groovy",
   "aceMode": "groovy",
   "codemirrorMode": "groovy",
   "codemirrorMimeType": "text/x-groovy",

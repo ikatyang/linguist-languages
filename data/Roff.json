@@ -33,8 +33,11 @@
     ".tmac"
   ],
   "filenames": [
+    "eqnrc",
     "mmn",
-    "mmt"
+    "mmt",
+    "troffrc",
+    "troffrc-end"
   ],
   "tmScope": "text.roff",
   "aliases": [

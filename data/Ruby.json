@@ -1,6 +1,7 @@
 {
   "name": "Ruby",
   "type": "programming",
+  "tmScope": "source.ruby",
   "aceMode": "ruby",
   "codemirrorMode": "ruby",
   "codemirrorMimeType": "text/x-ruby",

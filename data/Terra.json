@@ -5,6 +5,7 @@
     ".t"
   ],
   "color": "#00004c",
+  "tmScope": "source.terra",
   "aceMode": "lua",
   "codemirrorMode": "lua",
   "codemirrorMimeType": "text/x-lua",

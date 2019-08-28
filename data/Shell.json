@@ -63,6 +63,7 @@
     "sh",
     "zsh"
   ],
+  "tmScope": "source.shell",
   "aceMode": "sh",
   "codemirrorMode": "shell",
   "codemirrorMimeType": "text/x-sh",

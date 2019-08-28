@@ -6,6 +6,7 @@
     ".ex",
     ".exs"
   ],
+  "tmScope": "source.elixir",
   "aceMode": "elixir",
   "filenames": [
     "mix.lock"

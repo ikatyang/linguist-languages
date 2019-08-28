@@ -2,6 +2,7 @@
   "name": "PowerShell",
   "type": "programming",
   "color": "#012456",
+  "tmScope": "source.powershell",
   "aceMode": "powershell",
   "codemirrorMode": "powershell",
   "codemirrorMimeType": "application/x-powershell",

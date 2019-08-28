@@ -12,6 +12,7 @@
     ".frt",
     ".fs"
   ],
+  "tmScope": "source.forth",
   "aceMode": "forth",
   "codemirrorMode": "forth",
   "codemirrorMimeType": "text/x-forth",

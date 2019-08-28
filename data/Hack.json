@@ -5,6 +5,7 @@
   "codemirrorMode": "php",
   "codemirrorMimeType": "application/x-httpd-php",
   "extensions": [
+    ".hack",
     ".hh",
     ".php"
   ],

@@ -9,7 +9,7 @@
     ".sp",
     ".inc"
   ],
-  "tmScope": "source.sp",
+  "tmScope": "source.sourcepawn",
   "aceMode": "text",
   "languageId": 354
 }

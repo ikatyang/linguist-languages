@@ -14,6 +14,7 @@
     "mawk",
     "nawk"
   ],
+  "tmScope": "source.awk",
   "aceMode": "text",
   "languageId": 28
 }

@@ -10,6 +10,7 @@
   "aliases": [
     "pyrex"
   ],
+  "tmScope": "source.cython",
   "aceMode": "text",
   "codemirrorMode": "python",
   "codemirrorMimeType": "text/x-cython",

@@ -2,7 +2,7 @@
   "name": "Bison",
   "type": "programming",
   "group": "Yacc",
-  "tmScope": "source.bison",
+  "tmScope": "source.yacc",
   "extensions": [
     ".bison"
   ],

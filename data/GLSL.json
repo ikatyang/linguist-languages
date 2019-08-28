@@ -21,6 +21,7 @@
     ".vsh",
     ".vshader"
   ],
+  "tmScope": "source.glsl",
   "aceMode": "glsl",
   "languageId": 124
 }

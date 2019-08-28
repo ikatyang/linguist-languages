@@ -19,6 +19,7 @@
   "interpreters": [
     "Rscript"
   ],
+  "tmScope": "source.r",
   "aceMode": "r",
   "codemirrorMode": "r",
   "codemirrorMimeType": "text/x-rsrc",

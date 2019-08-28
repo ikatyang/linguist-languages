@@ -6,6 +6,7 @@
     ".d",
     ".di"
   ],
+  "tmScope": "source.d",
   "aceMode": "d",
   "codemirrorMode": "d",
   "codemirrorMimeType": "text/x-d",

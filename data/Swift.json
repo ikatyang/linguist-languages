@@ -5,6 +5,7 @@
   "extensions": [
     ".swift"
   ],
+  "tmScope": "source.swift",
   "aceMode": "text",
   "codemirrorMode": "swift",
   "codemirrorMimeType": "text/x-swift",

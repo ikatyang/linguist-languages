@@ -14,6 +14,7 @@
   "interpreters": [
     "instantfpc"
   ],
+  "tmScope": "source.pascal",
   "aceMode": "pascal",
   "codemirrorMode": "pascal",
   "codemirrorMimeType": "text/x-pascal",

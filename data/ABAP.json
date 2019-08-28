@@ -5,6 +5,7 @@
   "extensions": [
     ".abap"
   ],
+  "tmScope": "source.abap",
   "aceMode": "abap",
   "languageId": 1
 }

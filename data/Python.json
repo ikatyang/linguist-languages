@@ -1,6 +1,7 @@
 {
   "name": "Python",
   "type": "programming",
+  "tmScope": "source.python",
   "aceMode": "python",
   "codemirrorMode": "python",
   "codemirrorMimeType": "text/x-python",
@@ -30,6 +31,7 @@
     "BUCK",
     "BUILD",
     "BUILD.bazel",
+    "DEPS",
     "SConscript",
     "SConstruct",
     "Snakefile",

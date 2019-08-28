@@ -8,6 +8,7 @@
     ".cobol",
     ".cpy"
   ],
+  "tmScope": "source.cobol",
   "aceMode": "cobol",
   "codemirrorMode": "cobol",
   "codemirrorMimeType": "text/x-cobol",

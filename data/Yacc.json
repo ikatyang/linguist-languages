@@ -6,7 +6,7 @@
     ".yacc",
     ".yy"
   ],
-  "tmScope": "source.bison",
+  "tmScope": "source.yacc",
   "aceMode": "text",
   "color": "#4B6C4B",
   "languageId": 409

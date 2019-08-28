@@ -5,6 +5,7 @@
     ".lean",
     ".hlean"
   ],
+  "tmScope": "source.lean",
   "aceMode": "text",
   "languageId": 197
 }

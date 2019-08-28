@@ -5,6 +5,7 @@
   "aceMode": "tex",
   "codemirrorMode": "stex",
   "codemirrorMimeType": "text/x-stex",
+  "tmScope": "text.tex.latex",
   "wrap": true,
   "aliases": [
     "latex"
@@ -13,7 +14,6 @@
     ".tex",
     ".aux",
     ".bbx",
-    ".bib",
     ".cbx",
     ".cls",
     ".dtx",

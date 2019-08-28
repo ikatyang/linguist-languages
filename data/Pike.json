@@ -9,6 +9,7 @@
   "interpreters": [
     "pike"
   ],
+  "tmScope": "source.pike",
   "aceMode": "text",
   "languageId": 287
 }

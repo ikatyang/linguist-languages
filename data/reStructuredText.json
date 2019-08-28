@@ -11,6 +11,7 @@
     ".rest.txt",
     ".rst.txt"
   ],
+  "tmScope": "text.restructuredtext",
   "aceMode": "text",
   "codemirrorMode": "rst",
   "codemirrorMimeType": "text/x-rst",

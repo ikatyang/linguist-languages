@@ -1,6 +1,7 @@
 {
   "name": "C++",
   "type": "programming",
+  "tmScope": "source.c++",
   "aceMode": "c_cpp",
   "codemirrorMode": "clike",
   "codemirrorMimeType": "text/x-c++src",

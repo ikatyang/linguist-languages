@@ -6,6 +6,7 @@
     ".haml",
     ".haml.deface"
   ],
+  "tmScope": "text.haml",
   "aceMode": "haml",
   "codemirrorMode": "haml",
   "codemirrorMimeType": "text/x-haml",

@@ -1,6 +1,7 @@
 {
   "name": "Lua",
   "type": "programming",
+  "tmScope": "source.lua",
   "aceMode": "lua",
   "codemirrorMode": "lua",
   "codemirrorMimeType": "text/x-lua",

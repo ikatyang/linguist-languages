@@ -6,6 +6,7 @@
     ".v",
     ".veo"
   ],
+  "tmScope": "source.verilog",
   "aceMode": "verilog",
   "codemirrorMode": "verilog",
   "codemirrorMimeType": "text/x-verilog",

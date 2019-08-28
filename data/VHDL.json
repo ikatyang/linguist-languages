@@ -12,6 +12,7 @@
     ".vht",
     ".vhw"
   ],
+  "tmScope": "source.vhdl",
   "aceMode": "vhdl",
   "codemirrorMode": "vhdl",
   "codemirrorMimeType": "text/x-vhdl",

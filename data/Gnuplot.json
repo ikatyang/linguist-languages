@@ -12,6 +12,7 @@
   "interpreters": [
     "gnuplot"
   ],
+  "tmScope": "source.gnuplot",
   "aceMode": "text",
   "languageId": 131
 }

@@ -11,6 +11,7 @@
     "ada95",
     "ada2005"
   ],
+  "tmScope": "source.ada",
   "aceMode": "ada",
   "languageId": 11
 }

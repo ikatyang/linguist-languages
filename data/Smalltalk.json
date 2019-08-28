@@ -9,6 +9,7 @@
   "aliases": [
     "squeak"
   ],
+  "tmScope": "source.smalltalk",
   "aceMode": "text",
   "codemirrorMode": "smalltalk",
   "codemirrorMimeType": "text/x-stsrc",

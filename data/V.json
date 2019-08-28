@@ -1,16 +1,16 @@
 {
-  "name": "Go",
+  "name": "V",
   "type": "programming",
-  "color": "#00ADD8",
+  "color": "#5d87bd",
   "aliases": [
-    "golang"
+    "vlang"
   ],
   "extensions": [
-    ".go"
+    ".v"
   ],
-  "tmScope": "source.go",
+  "tmScope": "source.v",
   "aceMode": "golang",
   "codemirrorMode": "go",
   "codemirrorMimeType": "text/x-go",
-  "languageId": 132
+  "languageId": 603371597
 }

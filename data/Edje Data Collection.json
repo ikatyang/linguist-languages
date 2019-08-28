@@ -4,9 +4,9 @@
   "extensions": [
     ".edc"
   ],
-  "tmScope": "source.json",
-  "aceMode": "json",
-  "codemirrorMode": "javascript",
-  "codemirrorMimeType": "application/json",
+  "tmScope": "source.c++",
+  "aceMode": "c_cpp",
+  "codemirrorMode": "clike",
+  "codemirrorMimeType": "text/x-c++src",
   "languageId": 342840478
 }

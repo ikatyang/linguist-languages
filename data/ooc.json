@@ -5,6 +5,7 @@
   "extensions": [
     ".ooc"
   ],
+  "tmScope": "source.ooc",
   "aceMode": "text",
   "languageId": 418
 }

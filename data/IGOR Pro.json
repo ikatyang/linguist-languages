@@ -1,6 +1,7 @@
 {
   "name": "IGOR Pro",
   "type": "programming",
+  "color": "#0000cc",
   "extensions": [
     ".ipf"
   ],
@@ -8,7 +9,7 @@
     "igor",
     "igorpro"
   ],
-  "tmScope": "none",
+  "tmScope": "source.igor",
   "aceMode": "text",
   "languageId": 162
 }

@@ -32,6 +32,7 @@
   "interpreters": [
     "make"
   ],
+  "tmScope": "source.makefile",
   "aceMode": "makefile",
   "codemirrorMode": "cmake",
   "codemirrorMimeType": "text/x-cmake",

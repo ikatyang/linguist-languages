@@ -4,6 +4,7 @@
   "extensions": [
     ".befunge"
   ],
+  "tmScope": "source.befunge",
   "aceMode": "text",
   "languageId": 30
 }

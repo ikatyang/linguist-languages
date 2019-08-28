@@ -13,6 +13,7 @@
   "filenames": [
     "Slakefile"
   ],
+  "tmScope": "source.livescript",
   "aceMode": "livescript",
   "codemirrorMode": "livescript",
   "codemirrorMimeType": "text/x-livescript",

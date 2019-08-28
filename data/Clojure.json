@@ -1,6 +1,7 @@
 {
   "name": "Clojure",
   "type": "programming",
+  "tmScope": "source.clojure",
   "aceMode": "clojure",
   "codemirrorMode": "clojure",
   "codemirrorMimeType": "text/x-clojure",

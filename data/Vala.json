@@ -6,6 +6,7 @@
     ".vala",
     ".vapi"
   ],
+  "tmScope": "source.vala",
   "aceMode": "vala",
   "languageId": 386
 }

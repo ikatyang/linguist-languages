@@ -9,6 +9,7 @@
   "interpreters": [
     "runhaskell"
   ],
+  "tmScope": "source.haskell",
   "aceMode": "haskell",
   "codemirrorMode": "haskell",
   "codemirrorMimeType": "text/x-haskell",

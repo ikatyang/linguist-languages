@@ -5,6 +5,7 @@
   "extensions": [
     ".als"
   ],
+  "tmScope": "source.alloy",
   "aceMode": "text",
   "languageId": 13
 }

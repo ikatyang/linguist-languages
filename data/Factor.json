@@ -9,6 +9,7 @@
     ".factor-boot-rc",
     ".factor-rc"
   ],
+  "tmScope": "source.factor",
   "aceMode": "text",
   "codemirrorMode": "factor",
   "codemirrorMimeType": "text/x-factor",

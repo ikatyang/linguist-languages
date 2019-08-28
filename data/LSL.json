@@ -1,6 +1,7 @@
 {
   "name": "LSL",
   "type": "programming",
+  "tmScope": "source.lsl",
   "aceMode": "lsl",
   "extensions": [
     ".lsl",

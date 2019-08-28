@@ -17,6 +17,7 @@
     "rebar.config.lock",
     "rebar.lock"
   ],
+  "tmScope": "source.erlang",
   "aceMode": "erlang",
   "codemirrorMode": "erlang",
   "codemirrorMimeType": "text/x-erlang",

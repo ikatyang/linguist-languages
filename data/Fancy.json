@@ -9,6 +9,7 @@
   "filenames": [
     "Fakefile"
   ],
+  "tmScope": "source.fancy",
   "aceMode": "text",
   "languageId": 109
 }

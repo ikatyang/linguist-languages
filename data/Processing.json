@@ -5,6 +5,7 @@
   "extensions": [
     ".pde"
   ],
+  "tmScope": "source.processing",
   "aceMode": "text",
   "languageId": 294
 }

@@ -15,6 +15,7 @@
   "aliases": [
     "mma"
   ],
+  "tmScope": "source.mathematica",
   "aceMode": "text",
   "codemirrorMode": "mathematica",
   "codemirrorMimeType": "text/x-mathematica",

@@ -35,6 +35,7 @@ type LanguageName =
   | "Ballerina"
   | "Batchfile"
   | "Befunge"
+  | "BibTeX"
   | "Bison"
   | "BitBake"
   | "Blade"
@@ -136,6 +137,7 @@ type LanguageName =
   | "FreeMarker"
   | "Frege"
   | "G-code"
+  | "GAML"
   | "GAMS"
   | "GAP"
   | "GCC Machine Description"
@@ -257,6 +259,7 @@ type LanguageName =
   | "M4Sugar"
   | "MATLAB"
   | "MAXScript"
+  | "MLIR"
   | "MQL4"
   | "MQL5"
   | "MTML"
@@ -314,6 +317,7 @@ type LanguageName =
   | "OpenEdge ABL"
   | "OpenRC runscript"
   | "OpenSCAD"
+  | "OpenStep Property List"
   | "OpenType Feature File"
   | "Org"
   | "Ox"
@@ -418,6 +422,7 @@ type LanguageName =
   | "Slash"
   | "Slice"
   | "Slim"
+  | "SmPL"
   | "Smali"
   | "Smalltalk"
   | "Smarty"
@@ -446,6 +451,7 @@ type LanguageName =
   | "TeX"
   | "Tea"
   | "Terra"
+  | "Texinfo"
   | "Text"
   | "Textile"
   | "Thrift"
@@ -460,6 +466,7 @@ type LanguageName =
   | "Uno"
   | "UnrealScript"
   | "UrWeb"
+  | "V"
   | "VCL"
   | "VHDL"
   | "Vala"
@@ -484,6 +491,7 @@ type LanguageName =
   | "XC"
   | "XCompose"
   | "XML"
+  | "XML Property List"
   | "XPages"
   | "XProc"
   | "XQuery"
@@ -544,7 +552,7 @@ declare namespace LinguistLanguages {
      * the grammars.yml file. Use "none" if there is no grammar
      * for this language.
      */
-    tmScope?: string;
+    tmScope: string;
     /**
      * A String name of the Ace Mode used for highlighting whenever
      * a file is edited. This must match one of the filenames in http://git.io/3XO_Cg.

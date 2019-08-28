@@ -8,6 +8,7 @@
     ".intr",
     ".lid"
   ],
+  "tmScope": "source.dylan",
   "aceMode": "text",
   "codemirrorMode": "dylan",
   "codemirrorMimeType": "text/x-dylan",

@@ -6,6 +6,7 @@
     ".rs",
     ".rs.in"
   ],
+  "tmScope": "source.rust",
   "aceMode": "rust",
   "codemirrorMode": "rust",
   "codemirrorMimeType": "text/x-rustsrc",

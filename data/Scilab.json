@@ -6,6 +6,7 @@
     ".sce",
     ".tst"
   ],
+  "tmScope": "source.scilab",
   "aceMode": "text",
   "languageId": 344
 }

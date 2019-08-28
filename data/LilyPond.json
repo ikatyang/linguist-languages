@@ -5,6 +5,7 @@
     ".ly",
     ".ily"
   ],
+  "tmScope": "source.lilypond",
   "aceMode": "text",
   "languageId": 200
 }

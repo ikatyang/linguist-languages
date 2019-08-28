@@ -9,7 +9,7 @@
     ".l",
     ".lex"
   ],
-  "tmScope": "none",
+  "tmScope": "source.lex",
   "aceMode": "text",
   "languageId": 199
 }

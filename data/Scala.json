@@ -1,6 +1,7 @@
 {
   "name": "Scala",
   "type": "programming",
+  "tmScope": "source.scala",
   "aceMode": "scala",
   "codemirrorMode": "clike",
   "codemirrorMimeType": "text/x-scala",

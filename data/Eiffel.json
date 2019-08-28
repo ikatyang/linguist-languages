@@ -5,6 +5,7 @@
   "extensions": [
     ".e"
   ],
+  "tmScope": "source.eiffel",
   "aceMode": "eiffel",
   "codemirrorMode": "eiffel",
   "codemirrorMimeType": "text/x-eiffel",

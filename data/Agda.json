@@ -5,6 +5,7 @@
   "extensions": [
     ".agda"
   ],
+  "tmScope": "source.agda",
   "aceMode": "text",
   "languageId": 12
 }

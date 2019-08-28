@@ -5,6 +5,7 @@
   "extensions": [
     ".n"
   ],
+  "tmScope": "source.nemerle",
   "aceMode": "text",
   "languageId": 243
 }

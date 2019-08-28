@@ -8,6 +8,7 @@
   "extensions": [
     ".chpl"
   ],
+  "tmScope": "source.chapel",
   "aceMode": "text",
   "languageId": 55
 }
