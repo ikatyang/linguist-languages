@@ -11,7 +11,7 @@
   "filenames": [
     "configure.ac"
   ],
-  "tmScope": "none",
+  "tmScope": "source.m4",
   "aceMode": "text",
   "languageId": 216
 }

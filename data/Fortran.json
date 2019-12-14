@@ -12,7 +12,7 @@
     ".for",
     ".fpp"
   ],
-  "tmScope": "source.fortran.modern",
+  "tmScope": "source.fortran",
   "aceMode": "text",
   "codemirrorMode": "fortran",
   "codemirrorMimeType": "text/x-fortran",

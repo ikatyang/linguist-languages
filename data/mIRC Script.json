@@ -1,0 +1,11 @@
+{
+  "name": "mIRC Script",
+  "type": "programming",
+  "color": "#926059",
+  "extensions": [
+    ".mrc"
+  ],
+  "tmScope": "source.mrc",
+  "aceMode": "text",
+  "languageId": 517654727
+}

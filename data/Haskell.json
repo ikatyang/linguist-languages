@@ -4,6 +4,7 @@
   "color": "#5e5086",
   "extensions": [
     ".hs",
+    ".hs-boot",
     ".hsc"
   ],
   "interpreters": [

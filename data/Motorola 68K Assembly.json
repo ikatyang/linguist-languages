@@ -2,6 +2,9 @@
   "name": "Motorola 68K Assembly",
   "type": "programming",
   "group": "Assembly",
+  "aliases": [
+    "m68k"
+  ],
   "extensions": [
     ".X68"
   ],

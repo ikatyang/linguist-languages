@@ -1,24 +1,22 @@
 {
-  "name": "Visual Basic",
+  "name": "VBA",
   "type": "programming",
-  "color": "#945db7",
+  "color": "#867db1",
   "extensions": [
-    ".vb",
     ".bas",
     ".cls",
     ".frm",
     ".frx",
-    ".vba",
-    ".vbhtml",
-    ".vbs"
+    ".vba"
   ],
   "tmScope": "source.vbnet",
   "aliases": [
-    "vb.net",
-    "vbnet"
+    "vb6",
+    "visual basic 6",
+    "visual basic for applications"
   ],
   "aceMode": "text",
   "codemirrorMode": "vb",
   "codemirrorMimeType": "text/x-vb",
-  "languageId": 389
+  "languageId": 399230729
 }

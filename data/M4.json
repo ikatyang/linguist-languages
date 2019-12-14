@@ -4,7 +4,7 @@
   "extensions": [
     ".m4"
   ],
-  "tmScope": "none",
+  "tmScope": "source.m4",
   "aceMode": "text",
   "languageId": 215
 }
