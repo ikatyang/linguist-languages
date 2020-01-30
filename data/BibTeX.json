@@ -3,7 +3,8 @@
   "type": "markup",
   "group": "TeX",
   "extensions": [
-    ".bib"
+    ".bib",
+    ".bibtex"
   ],
   "tmScope": "text.bibtex",
   "aceMode": "tex",

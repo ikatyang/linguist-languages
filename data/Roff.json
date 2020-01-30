@@ -50,6 +50,7 @@
     "nroff",
     "troff"
   ],
+  "wrap": true,
   "aceMode": "text",
   "codemirrorMode": "troff",
   "codemirrorMimeType": "text/troff",

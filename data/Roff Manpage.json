@@ -24,6 +24,7 @@
     ".man",
     ".mdoc"
   ],
+  "wrap": true,
   "tmScope": "text.roff",
   "aceMode": "text",
   "codemirrorMode": "troff",

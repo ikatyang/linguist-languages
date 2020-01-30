@@ -9,6 +9,7 @@
   "extensions": [
     ".asm",
     ".a51",
+    ".i",
     ".inc",
     ".nasm"
   ],

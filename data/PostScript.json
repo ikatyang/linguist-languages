@@ -5,6 +5,7 @@
   "extensions": [
     ".ps",
     ".eps",
+    ".epsi",
     ".pfa"
   ],
   "tmScope": "source.postscript",

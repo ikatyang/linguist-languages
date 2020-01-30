@@ -39,8 +39,10 @@
   "interpreters": [
     "chakra",
     "d8",
+    "gjs",
     "js",
     "node",
+    "qjs",
     "rhino",
     "v8",
     "v8-shell"

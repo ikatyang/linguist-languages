@@ -6,7 +6,11 @@
     "m68k"
   ],
   "extensions": [
-    ".X68"
+    ".asm",
+    ".i",
+    ".inc",
+    ".s",
+    ".x68"
   ],
   "tmScope": "source.m68k",
   "aceMode": "assembly_x86",

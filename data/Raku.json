@@ -1,5 +1,5 @@
 {
-  "name": "Perl 6",
+  "name": "Raku",
   "type": "programming",
   "color": "#0000fb",
   "extensions": [
@@ -16,10 +16,13 @@
     ".t"
   ],
   "interpreters": [
-    "perl6"
+    "perl6",
+    "raku",
+    "rakudo"
   ],
   "aliases": [
-    "perl6"
+    "perl6",
+    "perl-6"
   ],
   "tmScope": "source.perl6fe",
   "aceMode": "perl",

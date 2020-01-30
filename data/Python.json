@@ -8,7 +8,6 @@
   "color": "#3572A5",
   "extensions": [
     ".py",
-    ".bzl",
     ".cgi",
     ".fcgi",
     ".gyp",
@@ -21,6 +20,7 @@
     ".pyt",
     ".pyw",
     ".rpy",
+    ".smk",
     ".spec",
     ".tac",
     ".wsgi",
@@ -28,14 +28,10 @@
   ],
   "filenames": [
     ".gclient",
-    "BUCK",
-    "BUILD",
-    "BUILD.bazel",
     "DEPS",
     "SConscript",
     "SConstruct",
     "Snakefile",
-    "WORKSPACE",
     "wscript"
   ],
   "interpreters": [
@@ -44,11 +40,8 @@
     "python3"
   ],
   "aliases": [
-    "bazel",
-    "bzl",
-    "rusthon",
-    "starlark",
-    "python3"
+    "python3",
+    "rusthon"
   ],
   "languageId": 303
 }

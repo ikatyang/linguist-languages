@@ -4,7 +4,8 @@
   "tmScope": "source.postcss",
   "group": "CSS",
   "extensions": [
-    ".pcss"
+    ".pcss",
+    ".postcss"
   ],
   "aceMode": "text",
   "languageId": 262764437

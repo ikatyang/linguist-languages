@@ -6,6 +6,10 @@
     ".tcsh",
     ".csh"
   ],
+  "interpreters": [
+    "tcsh",
+    "csh"
+  ],
   "tmScope": "source.shell",
   "aceMode": "sh",
   "codemirrorMode": "shell",

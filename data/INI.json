@@ -4,6 +4,7 @@
   "extensions": [
     ".ini",
     ".cfg",
+    ".dof",
     ".lektorproject",
     ".prefs",
     ".pro",
