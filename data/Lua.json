@@ -16,6 +16,9 @@
     ".rockspec",
     ".wlua"
   ],
+  "filenames": [
+    ".luacheckrc"
+  ],
   "interpreters": [
     "lua"
   ],
