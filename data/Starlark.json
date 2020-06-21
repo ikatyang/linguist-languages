@@ -13,6 +13,7 @@
     "BUCK",
     "BUILD",
     "BUILD.bazel",
+    "Tiltfile",
     "WORKSPACE"
   ],
   "aliases": [

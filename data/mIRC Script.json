@@ -5,7 +5,7 @@
   "extensions": [
     ".mrc"
   ],
-  "tmScope": "source.mrc",
+  "tmScope": "source.msl",
   "aceMode": "text",
   "languageId": 517654727
 }

@@ -1,17 +1,16 @@
 {
-  "name": "Fortran",
+  "name": "Fortran Free Form",
   "group": "Fortran",
   "type": "programming",
-  "color": "#4d41b1",
   "extensions": [
-    ".f",
-    ".f77",
-    ".for",
-    ".fpp"
+    ".f90",
+    ".f03",
+    ".f08",
+    ".f95"
   ],
-  "tmScope": "source.fortran",
+  "tmScope": "source.fortran.modern",
   "aceMode": "text",
   "codemirrorMode": "fortran",
   "codemirrorMimeType": "text/x-fortran",
-  "languageId": 107
+  "languageId": 761352333
 }

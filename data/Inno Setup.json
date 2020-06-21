@@ -2,7 +2,8 @@
   "name": "Inno Setup",
   "type": "programming",
   "extensions": [
-    ".iss"
+    ".iss",
+    ".isl"
   ],
   "tmScope": "source.inno",
   "aceMode": "text",
