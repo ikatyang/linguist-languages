@@ -1,6 +1,7 @@
 {
   "name": "SVG",
   "type": "data",
+  "color": "#ff9900",
   "extensions": [
     ".svg"
   ],

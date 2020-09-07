@@ -1,7 +1,7 @@
 {
   "name": "Haml",
-  "group": "HTML",
   "type": "markup",
+  "color": "#ece2a9",
   "extensions": [
     ".haml",
     ".haml.deface"

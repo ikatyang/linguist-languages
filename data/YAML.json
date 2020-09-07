@@ -1,6 +1,7 @@
 {
   "name": "YAML",
   "type": "data",
+  "color": "#cb171e",
   "tmScope": "source.yaml",
   "aliases": [
     "yml"

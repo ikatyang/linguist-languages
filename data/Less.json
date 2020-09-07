@@ -1,7 +1,7 @@
 {
   "name": "Less",
   "type": "markup",
-  "group": "CSS",
+  "color": "#1d365d",
   "extensions": [
     ".less"
   ],

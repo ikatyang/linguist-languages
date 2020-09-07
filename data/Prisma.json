@@ -1,6 +1,7 @@
 {
   "name": "Prisma",
   "type": "data",
+  "color": "#0c344b",
   "extensions": [
     ".prisma"
   ],

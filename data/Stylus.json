@@ -1,7 +1,7 @@
 {
   "name": "Stylus",
   "type": "markup",
-  "group": "CSS",
+  "color": "#ff6347",
   "extensions": [
     ".styl"
   ],

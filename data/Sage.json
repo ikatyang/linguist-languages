@@ -1,7 +1,6 @@
 {
   "name": "Sage",
   "type": "programming",
-  "group": "Python",
   "extensions": [
     ".sage",
     ".sagews"

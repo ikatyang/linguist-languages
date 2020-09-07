@@ -1,7 +1,7 @@
 {
   "name": "Blade",
   "type": "markup",
-  "group": "HTML",
+  "color": "#f7523f",
   "extensions": [
     ".blade",
     ".blade.php"

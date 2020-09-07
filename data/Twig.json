@@ -1,7 +1,7 @@
 {
   "name": "Twig",
   "type": "markup",
-  "group": "HTML",
+  "color": "#c1d026",
   "extensions": [
     ".twig"
   ],

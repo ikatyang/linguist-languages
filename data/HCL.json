@@ -3,6 +3,7 @@
   "type": "programming",
   "extensions": [
     ".hcl",
+    ".nomad",
     ".tf",
     ".tfvars",
     ".workflow"

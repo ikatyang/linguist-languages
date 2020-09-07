@@ -6,7 +6,8 @@
   ],
   "filenames": [
     "Cargo.lock",
-    "Gopkg.lock"
+    "Gopkg.lock",
+    "poetry.lock"
   ],
   "tmScope": "source.toml",
   "aceMode": "toml",

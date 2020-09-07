@@ -1,6 +1,7 @@
 {
   "name": "Apex",
   "type": "programming",
+  "color": "#1797c0",
   "extensions": [
     ".cls"
   ],

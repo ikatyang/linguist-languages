@@ -1,7 +1,7 @@
 {
   "name": "Pug",
-  "group": "HTML",
   "type": "markup",
+  "color": "#a86454",
   "extensions": [
     ".jade",
     ".pug"

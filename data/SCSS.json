@@ -1,8 +1,8 @@
 {
   "name": "SCSS",
   "type": "markup",
+  "color": "#c6538c",
   "tmScope": "source.css.scss",
-  "group": "CSS",
   "aceMode": "scss",
   "codemirrorMode": "css",
   "codemirrorMimeType": "text/x-scss",

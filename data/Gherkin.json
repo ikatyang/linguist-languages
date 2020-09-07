@@ -2,7 +2,8 @@
   "name": "Gherkin",
   "type": "programming",
   "extensions": [
-    ".feature"
+    ".feature",
+    ".story"
   ],
   "tmScope": "text.gherkin.feature",
   "aliases": [

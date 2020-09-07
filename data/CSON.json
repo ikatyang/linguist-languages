@@ -1,6 +1,7 @@
 {
   "name": "CSON",
   "type": "data",
+  "color": "#244776",
   "tmScope": "source.coffee",
   "aceMode": "coffee",
   "codemirrorMode": "coffeescript",

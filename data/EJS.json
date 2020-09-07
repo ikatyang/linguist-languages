@@ -3,7 +3,9 @@
   "type": "markup",
   "group": "HTML",
   "extensions": [
-    ".ejs"
+    ".ejs",
+    ".ect",
+    ".jst"
   ],
   "tmScope": "text.html.js",
   "aceMode": "ejs",

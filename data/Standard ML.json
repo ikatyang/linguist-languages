@@ -6,7 +6,7 @@
     "sml"
   ],
   "extensions": [
-    ".ML",
+    ".ml",
     ".fun",
     ".sig",
     ".sml"

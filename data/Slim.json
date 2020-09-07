@@ -1,7 +1,7 @@
 {
   "name": "Slim",
-  "group": "HTML",
   "type": "markup",
+  "color": "#2b2b2b",
   "extensions": [
     ".slim"
   ],

@@ -1,7 +1,7 @@
 {
   "name": "Handlebars",
   "type": "markup",
-  "group": "HTML",
+  "color": "#f7931e",
   "aliases": [
     "hbs",
     "htmlbars"

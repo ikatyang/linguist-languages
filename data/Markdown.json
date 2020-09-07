@@ -1,6 +1,7 @@
 {
   "name": "Markdown",
   "type": "prose",
+  "color": "#083fa1",
   "aliases": [
     "pandoc"
   ],

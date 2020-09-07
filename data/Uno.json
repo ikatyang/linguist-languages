@@ -1,6 +1,7 @@
 {
   "name": "Uno",
   "type": "programming",
+  "color": "#9933cc",
   "extensions": [
     ".uno"
   ],

@@ -1,7 +1,7 @@
 {
   "name": "Asymptote",
   "type": "programming",
-  "color": "#4a0c0c",
+  "color": "#ff0000",
   "extensions": [
     ".asy"
   ],

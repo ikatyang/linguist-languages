@@ -1,8 +1,8 @@
 {
   "name": "Sass",
   "type": "markup",
+  "color": "#a53b70",
   "tmScope": "source.sass",
-  "group": "CSS",
   "extensions": [
     ".sass"
   ],

@@ -1,7 +1,7 @@
 {
   "name": "mIRC Script",
   "type": "programming",
-  "color": "#926059",
+  "color": "#3d57c3",
   "extensions": [
     ".mrc"
   ],

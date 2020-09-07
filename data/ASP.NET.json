@@ -1,14 +1,13 @@
 {
-  "name": "ASP",
+  "name": "ASP.NET",
   "type": "programming",
-  "color": "#6a40fd",
   "tmScope": "text.html.asp",
+  "color": "#9400ff",
   "aliases": [
     "aspx",
     "aspx-vb"
   ],
   "extensions": [
-    ".asp",
     ".asax",
     ".ascx",
     ".ashx",
@@ -19,5 +18,5 @@
   "aceMode": "text",
   "codemirrorMode": "htmlembedded",
   "codemirrorMimeType": "application/x-aspx",
-  "languageId": 8
+  "languageId": 564186416
 }

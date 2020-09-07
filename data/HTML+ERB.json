@@ -4,11 +4,14 @@
   "tmScope": "text.html.erb",
   "group": "HTML",
   "aliases": [
-    "erb"
+    "erb",
+    "rhtml",
+    "html+ruby"
   ],
   "extensions": [
     ".erb",
-    ".erb.deface"
+    ".erb.deface",
+    ".rhtml"
   ],
   "aceMode": "text",
   "codemirrorMode": "htmlembedded",

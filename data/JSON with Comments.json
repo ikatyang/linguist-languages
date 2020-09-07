@@ -33,7 +33,8 @@
     ".jslintrc",
     "jsconfig.json",
     "language-configuration.json",
-    "tsconfig.json"
+    "tsconfig.json",
+    "tslint.json"
   ],
   "languageId": 423
 }

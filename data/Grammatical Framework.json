@@ -7,7 +7,7 @@
   "extensions": [
     ".gf"
   ],
-  "color": "#79aa7a",
+  "color": "#ff0000",
   "tmScope": "source.gf",
   "aceMode": "haskell",
   "codemirrorMode": "haskell",

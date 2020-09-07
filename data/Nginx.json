@@ -2,6 +2,7 @@
   "name": "Nginx",
   "type": "data",
   "extensions": [
+    ".nginx",
     ".nginxconf",
     ".vhost"
   ],

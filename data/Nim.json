@@ -1,7 +1,7 @@
 {
   "name": "Nim",
   "type": "programming",
-  "color": "#37775b",
+  "color": "#ffc200",
   "extensions": [
     ".nim",
     ".nim.cfg",

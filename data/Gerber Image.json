@@ -17,7 +17,8 @@
     ".gtl",
     ".gto",
     ".gtp",
-    ".gts"
+    ".gts",
+    ".sol"
   ],
   "interpreters": [
     "gerbv",

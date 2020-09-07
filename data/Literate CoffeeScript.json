@@ -9,7 +9,8 @@
     "litcoffee"
   ],
   "extensions": [
-    ".litcoffee"
+    ".litcoffee",
+    ".coffee.md"
   ],
   "languageId": 206
 }

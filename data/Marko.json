@@ -1,7 +1,7 @@
 {
   "name": "Marko",
-  "group": "HTML",
   "type": "markup",
+  "color": "#42bff2",
   "tmScope": "text.marko",
   "extensions": [
     ".marko"
