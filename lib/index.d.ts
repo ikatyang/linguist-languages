@@ -4,7 +4,7 @@ type LanguageName =
   | "ABAP"
   | "ABNF"
   | "AGS Script"
-  | "AL Code"
+  | "AL"
   | "AMPL"
   | "ANTLR"
   | "API Blueprint"

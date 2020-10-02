@@ -1,6 +1,7 @@
 {
   "name": "GraphQL",
   "type": "data",
+  "color": "#e10098",
   "extensions": [
     ".graphql",
     ".gql",

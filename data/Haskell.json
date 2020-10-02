@@ -8,7 +8,9 @@
     ".hsc"
   ],
   "interpreters": [
-    "runhaskell"
+    "runghc",
+    "runhaskell",
+    "runhugs"
   ],
   "tmScope": "source.haskell",
   "aceMode": "haskell",
