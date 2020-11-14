@@ -2,7 +2,7 @@
   "name": "Pod 6",
   "type": "prose",
   "aceMode": "perl",
-  "tmScope": "source.perl6fe",
+  "tmScope": "source.raku",
   "wrap": true,
   "extensions": [
     ".pod",

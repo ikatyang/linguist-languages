@@ -31,6 +31,7 @@
     ".jscsrc",
     ".jshintrc",
     ".jslintrc",
+    "devcontainer.json",
     "jsconfig.json",
     "language-configuration.json",
     "tsconfig.json",

@@ -2,7 +2,8 @@
   "name": "LabVIEW",
   "type": "programming",
   "extensions": [
-    ".lvproj"
+    ".lvproj",
+    ".lvlib"
   ],
   "tmScope": "text.xml",
   "aceMode": "xml",

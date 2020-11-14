@@ -4,10 +4,12 @@
   "tmScope": "text.html.elixir",
   "group": "HTML",
   "aliases": [
-    "eex"
+    "eex",
+    "leex"
   ],
   "extensions": [
-    ".eex"
+    ".eex",
+    ".html.leex"
   ],
   "aceMode": "text",
   "codemirrorMode": "htmlmixed",

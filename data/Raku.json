@@ -24,7 +24,7 @@
     "perl6",
     "perl-6"
   ],
-  "tmScope": "source.perl6fe",
+  "tmScope": "source.raku",
   "aceMode": "perl",
   "codemirrorMode": "perl",
   "codemirrorMimeType": "text/x-perl",
