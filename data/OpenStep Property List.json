@@ -2,7 +2,8 @@
   "name": "OpenStep Property List",
   "type": "data",
   "extensions": [
-    ".plist"
+    ".plist",
+    ".glyphs"
   ],
   "tmScope": "source.plist",
   "aceMode": "text",

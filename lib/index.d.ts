@@ -49,6 +49,7 @@ type LanguageName =
   | "Boo"
   | "Brainfuck"
   | "Brightscript"
+  | "Browserslist"
   | "C"
   | "C#"
   | "C++"
