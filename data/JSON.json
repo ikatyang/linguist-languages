@@ -30,6 +30,7 @@
     ".tern-config",
     ".tern-project",
     ".watchmanconfig",
+    "Pipfile.lock",
     "composer.lock",
     "mcmod.info"
   ],

@@ -19,6 +19,7 @@
     ".mkdn",
     ".mkdown",
     ".ronn",
+    ".scd",
     ".workbook"
   ],
   "filenames": [

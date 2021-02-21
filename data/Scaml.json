@@ -1,7 +1,7 @@
 {
   "name": "Scaml",
-  "group": "HTML",
   "type": "markup",
+  "color": "#bd181a",
   "extensions": [
     ".scaml"
   ],

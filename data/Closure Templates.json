@@ -1,7 +1,7 @@
 {
   "name": "Closure Templates",
   "type": "markup",
-  "group": "HTML",
+  "color": "#0d948f",
   "aceMode": "soy_template",
   "codemirrorMode": "soy",
   "codemirrorMimeType": "text/x-soy",

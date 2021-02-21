@@ -7,7 +7,9 @@
   "tmScope": "source.cs",
   "color": "#178600",
   "aliases": [
-    "csharp"
+    "csharp",
+    "cake",
+    "cakescript"
   ],
   "extensions": [
     ".cs",

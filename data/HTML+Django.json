@@ -6,16 +6,13 @@
   "extensions": [
     ".jinja",
     ".j2",
-    ".jinja2",
-    ".njk"
+    ".jinja2"
   ],
   "aliases": [
     "django",
     "html+django/jinja",
     "html+jinja",
-    "htmldjango",
-    "njk",
-    "nunjucks"
+    "htmldjango"
   ],
   "aceMode": "django",
   "codemirrorMode": "django",

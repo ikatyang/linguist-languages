@@ -2,6 +2,10 @@
   "name": "Pascal",
   "type": "programming",
   "color": "#E3F171",
+  "aliases": [
+    "delphi",
+    "objectpascal"
+  ],
   "extensions": [
     ".pas",
     ".dfm",

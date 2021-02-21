@@ -7,10 +7,6 @@
     ".cps"
   ],
   "tmScope": "source.pascal",
-  "aliases": [
-    "delphi",
-    "objectpascal"
-  ],
   "aceMode": "pascal",
   "codemirrorMode": "pascal",
   "codemirrorMimeType": "text/x-pascal",

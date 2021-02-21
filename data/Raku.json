@@ -13,6 +13,8 @@
     ".pl6",
     ".pm",
     ".pm6",
+    ".raku",
+    ".rakumod",
     ".t"
   ],
   "interpreters": [

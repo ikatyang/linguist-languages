@@ -9,6 +9,7 @@
     ".workflow"
   ],
   "aliases": [
+    "HashiCorp Configuration Language",
     "terraform"
   ],
   "aceMode": "ruby",

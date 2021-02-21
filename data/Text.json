@@ -3,7 +3,8 @@
   "type": "prose",
   "wrap": true,
   "aliases": [
-    "fundamental"
+    "fundamental",
+    "plain text"
   ],
   "extensions": [
     ".txt",

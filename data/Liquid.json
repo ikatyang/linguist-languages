@@ -1,6 +1,7 @@
 {
   "name": "Liquid",
   "type": "markup",
+  "color": "#67b8de",
   "extensions": [
     ".liquid"
   ],

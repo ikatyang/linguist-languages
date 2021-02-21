@@ -1,7 +1,7 @@
 {
   "name": "Mustache",
   "type": "markup",
-  "group": "HTML",
+  "color": "#724b3b",
   "extensions": [
     ".mustache"
   ],
