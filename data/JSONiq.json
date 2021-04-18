@@ -8,6 +8,6 @@
   "extensions": [
     ".jq"
   ],
-  "tmScope": "source.jq",
+  "tmScope": "source.jsoniq",
   "languageId": 177
 }

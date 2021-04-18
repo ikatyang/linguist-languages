@@ -2,6 +2,9 @@
   "name": "D",
   "type": "programming",
   "color": "#ba595e",
+  "aliases": [
+    "Dlang"
+  ],
   "extensions": [
     ".d",
     ".di"

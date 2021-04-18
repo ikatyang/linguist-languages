@@ -1,7 +1,6 @@
 {
   "name": "MiniD",
   "type": "programming",
-  "searchable": false,
   "extensions": [
     ".minid"
   ],

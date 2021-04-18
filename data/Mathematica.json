@@ -13,7 +13,11 @@
     ".wlt"
   ],
   "aliases": [
-    "mma"
+    "mma",
+    "wolfram",
+    "wolfram language",
+    "wolfram lang",
+    "wl"
   ],
   "tmScope": "source.mathematica",
   "aceMode": "text",

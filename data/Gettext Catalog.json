@@ -1,7 +1,6 @@
 {
   "name": "Gettext Catalog",
   "type": "prose",
-  "searchable": false,
   "aliases": [
     "pot"
   ],

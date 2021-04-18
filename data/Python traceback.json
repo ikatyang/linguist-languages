@@ -2,7 +2,6 @@
   "name": "Python traceback",
   "type": "data",
   "group": "Python",
-  "searchable": false,
   "extensions": [
     ".pytb"
   ],

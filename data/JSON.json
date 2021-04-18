@@ -5,7 +5,6 @@
   "aceMode": "json",
   "codemirrorMode": "javascript",
   "codemirrorMimeType": "application/json",
-  "searchable": false,
   "extensions": [
     ".json",
     ".avsc",

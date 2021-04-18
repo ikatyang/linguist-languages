@@ -1,19 +1,19 @@
 {
-  "name": "HTML+Django",
+  "name": "Jinja",
   "type": "markup",
-  "tmScope": "text.html.django",
-  "group": "HTML",
+  "color": "#a52a22",
+  "aliases": [
+    "django",
+    "html+django",
+    "html+jinja",
+    "htmldjango"
+  ],
   "extensions": [
     ".jinja",
     ".j2",
     ".jinja2"
   ],
-  "aliases": [
-    "django",
-    "html+django/jinja",
-    "html+jinja",
-    "htmldjango"
-  ],
+  "tmScope": "text.html.django",
   "aceMode": "django",
   "codemirrorMode": "django",
   "codemirrorMimeType": "text/x-django",
