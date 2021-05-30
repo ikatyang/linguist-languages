@@ -1,6 +1,7 @@
 {
   "name": "Regular Expression",
   "type": "data",
+  "color": "#009a00",
   "extensions": [
     ".regexp",
     ".regex"

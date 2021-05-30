@@ -8,7 +8,7 @@
   "extensions": [
     ".proto"
   ],
-  "tmScope": "source.protobuf",
+  "tmScope": "source.proto",
   "aceMode": "protobuf",
   "codemirrorMode": "protobuf",
   "codemirrorMimeType": "text/x-protobuf",

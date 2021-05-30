@@ -1,6 +1,9 @@
 {
   "name": "Rust",
   "type": "programming",
+  "aliases": [
+    "rs"
+  ],
   "color": "#dea584",
   "extensions": [
     ".rs",

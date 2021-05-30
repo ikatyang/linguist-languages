@@ -2,6 +2,7 @@
   "name": "Vim Help File",
   "type": "prose",
   "aliases": [
+    "help",
     "vimhelp"
   ],
   "extensions": [

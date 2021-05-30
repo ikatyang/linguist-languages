@@ -31,6 +31,7 @@
     ".jscsrc",
     ".jshintrc",
     ".jslintrc",
+    "api-extractor.json",
     "devcontainer.json",
     "jsconfig.json",
     "language-configuration.json",
