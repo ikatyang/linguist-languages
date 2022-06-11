@@ -1,6 +1,7 @@
 {
   "name": "Coq",
   "type": "programming",
+  "color": "#d0b68c",
   "extensions": [
     ".coq",
     ".v"

@@ -3,7 +3,8 @@
   "type": "data",
   "extensions": [
     ".desktop",
-    ".desktop.in"
+    ".desktop.in",
+    ".service"
   ],
   "tmScope": "source.desktop",
   "aceMode": "text",

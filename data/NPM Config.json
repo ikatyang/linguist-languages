@@ -1,6 +1,7 @@
 {
   "name": "NPM Config",
   "type": "data",
+  "color": "#cb3837",
   "group": "INI",
   "aliases": [
     "npmrc"

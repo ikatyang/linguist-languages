@@ -1,6 +1,7 @@
 {
   "name": "POV-Ray SDL",
   "type": "programming",
+  "color": "#6bac65",
   "aliases": [
     "pov-ray",
     "povray"

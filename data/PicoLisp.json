@@ -1,6 +1,7 @@
 {
   "name": "PicoLisp",
   "type": "programming",
+  "color": "#6067af",
   "extensions": [
     ".l"
   ],

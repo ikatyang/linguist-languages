@@ -1,6 +1,7 @@
 {
   "name": "JSON5",
   "type": "data",
+  "color": "#267CB9",
   "extensions": [
     ".json5"
   ],

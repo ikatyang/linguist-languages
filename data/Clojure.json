@@ -8,6 +8,7 @@
   "color": "#db5855",
   "extensions": [
     ".clj",
+    ".bb",
     ".boot",
     ".cl2",
     ".cljc",
@@ -19,6 +20,9 @@
   ],
   "filenames": [
     "riemann.config"
+  ],
+  "interpreters": [
+    "bb"
   ],
   "languageId": 62
 }

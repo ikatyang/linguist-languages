@@ -5,6 +5,7 @@
   "extensions": [
     ".tcl",
     ".adp",
+    ".tcl.in",
     ".tm"
   ],
   "filenames": [

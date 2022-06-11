@@ -1,6 +1,7 @@
 {
   "name": "HAProxy",
   "type": "data",
+  "color": "#106da9",
   "extensions": [
     ".cfg"
   ],

@@ -1,6 +1,7 @@
 {
   "name": "Java Server Pages",
   "type": "programming",
+  "color": "#2A6277",
   "group": "Java",
   "aliases": [
     "jsp"

@@ -1,6 +1,7 @@
 {
   "name": "Nginx",
   "type": "data",
+  "color": "#009639",
   "extensions": [
     ".nginx",
     ".nginxconf",

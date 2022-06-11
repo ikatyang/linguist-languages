@@ -1,6 +1,7 @@
 {
   "name": "Darcs Patch",
   "type": "data",
+  "color": "#8eff23",
   "aliases": [
     "dpatch"
   ],

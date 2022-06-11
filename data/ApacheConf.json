@@ -1,6 +1,7 @@
 {
   "name": "ApacheConf",
   "type": "data",
+  "color": "#d12127",
   "aliases": [
     "aconf",
     "apache"

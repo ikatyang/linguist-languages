@@ -1,6 +1,7 @@
 {
   "name": "PostCSS",
   "type": "markup",
+  "color": "#dc3a0c",
   "tmScope": "source.postcss",
   "group": "CSS",
   "extensions": [

@@ -1,6 +1,7 @@
 {
   "name": "CLIPS",
   "type": "programming",
+  "color": "#00A300",
   "extensions": [
     ".clp"
   ],

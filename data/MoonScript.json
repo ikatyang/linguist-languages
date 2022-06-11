@@ -1,6 +1,7 @@
 {
   "name": "MoonScript",
   "type": "programming",
+  "color": "#ff4585",
   "extensions": [
     ".moon"
   ],

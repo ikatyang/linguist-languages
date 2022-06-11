@@ -1,6 +1,7 @@
 {
   "name": "Jison",
   "type": "programming",
+  "color": "#56b3cb",
   "group": "Yacc",
   "extensions": [
     ".jison"

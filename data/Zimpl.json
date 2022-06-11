@@ -1,6 +1,7 @@
 {
   "name": "Zimpl",
   "type": "programming",
+  "color": "#d67711",
   "extensions": [
     ".zimpl",
     ".zmpl",

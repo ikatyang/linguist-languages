@@ -1,6 +1,7 @@
 {
   "name": "Roff Manpage",
   "type": "markup",
+  "color": "#ecdebe",
   "group": "Roff",
   "extensions": [
     ".1",

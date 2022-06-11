@@ -1,6 +1,7 @@
 {
   "name": "Gradle",
   "type": "data",
+  "color": "#02303a",
   "extensions": [
     ".gradle"
   ],

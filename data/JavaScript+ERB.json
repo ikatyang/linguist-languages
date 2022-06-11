@@ -1,6 +1,7 @@
 {
   "name": "JavaScript+ERB",
   "type": "programming",
+  "color": "#f1e05a",
   "tmScope": "source.js",
   "group": "JavaScript",
   "extensions": [

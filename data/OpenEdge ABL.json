@@ -1,6 +1,7 @@
 {
   "name": "OpenEdge ABL",
   "type": "programming",
+  "color": "#5ce600",
   "aliases": [
     "progress",
     "openedge",

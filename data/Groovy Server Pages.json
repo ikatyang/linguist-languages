@@ -1,6 +1,7 @@
 {
   "name": "Groovy Server Pages",
   "type": "programming",
+  "color": "#4298b8",
   "group": "Groovy",
   "aliases": [
     "gsp",

@@ -1,6 +1,7 @@
 {
   "name": "Isabelle ROOT",
   "type": "programming",
+  "color": "#FEFE00",
   "group": "Isabelle",
   "filenames": [
     "ROOT"

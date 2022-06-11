@@ -5,6 +5,7 @@
   "extensions": [
     ".ejs",
     ".ect",
+    ".ejs.t",
     ".jst"
   ],
   "tmScope": "text.html.js",

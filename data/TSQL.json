@@ -1,6 +1,7 @@
 {
   "name": "TSQL",
   "type": "programming",
+  "color": "#e38c00",
   "extensions": [
     ".sql"
   ],

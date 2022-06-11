@@ -1,6 +1,7 @@
 {
   "name": "CMake",
   "type": "programming",
+  "color": "#DA3434",
   "extensions": [
     ".cmake",
     ".cmake.in"

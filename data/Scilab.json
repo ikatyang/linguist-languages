@@ -1,6 +1,7 @@
 {
   "name": "Scilab",
   "type": "programming",
+  "color": "#ca0f21",
   "extensions": [
     ".sci",
     ".sce",

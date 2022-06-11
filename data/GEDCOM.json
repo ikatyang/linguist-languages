@@ -1,6 +1,7 @@
 {
   "name": "GEDCOM",
   "type": "data",
+  "color": "#003058",
   "aceMode": "text",
   "extensions": [
     ".ged"

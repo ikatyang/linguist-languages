@@ -1,6 +1,7 @@
 {
   "name": "Modelica",
   "type": "programming",
+  "color": "#de1d31",
   "extensions": [
     ".mo"
   ],

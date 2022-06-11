@@ -1,6 +1,7 @@
 {
   "name": "Python traceback",
   "type": "data",
+  "color": "#3572A5",
   "group": "Python",
   "extensions": [
     ".pytb"

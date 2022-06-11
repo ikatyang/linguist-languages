@@ -1,6 +1,7 @@
 {
   "name": "CodeQL",
   "type": "programming",
+  "color": "#140f46",
   "extensions": [
     ".ql",
     ".qll"

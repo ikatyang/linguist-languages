@@ -1,6 +1,7 @@
 {
   "name": "XML Property List",
   "type": "data",
+  "color": "#0060ac",
   "group": "XML",
   "extensions": [
     ".plist",

@@ -1,6 +1,7 @@
 {
   "name": "Cabal Config",
   "type": "data",
+  "color": "#483465",
   "aliases": [
     "Cabal"
   ],

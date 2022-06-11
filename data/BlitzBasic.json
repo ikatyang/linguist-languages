@@ -1,6 +1,7 @@
 {
   "name": "BlitzBasic",
   "type": "programming",
+  "color": "#00FFAE",
   "aliases": [
     "b3d",
     "blitz3d",

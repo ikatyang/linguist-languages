@@ -1,6 +1,7 @@
 {
   "name": "JSONLD",
   "type": "data",
+  "color": "#0c479c",
   "extensions": [
     ".jsonld"
   ],

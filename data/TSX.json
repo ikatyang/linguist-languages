@@ -1,6 +1,7 @@
 {
   "name": "TSX",
   "type": "programming",
+  "color": "#3178c6",
   "group": "TypeScript",
   "extensions": [
     ".tsx"

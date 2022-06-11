@@ -1,6 +1,7 @@
 {
   "name": "GCC Machine Description",
   "type": "programming",
+  "color": "#FFCFAB",
   "extensions": [
     ".md"
   ],

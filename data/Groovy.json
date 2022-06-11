@@ -5,7 +5,7 @@
   "aceMode": "groovy",
   "codemirrorMode": "groovy",
   "codemirrorMimeType": "text/x-groovy",
-  "color": "#e69f56",
+  "color": "#4298b8",
   "extensions": [
     ".groovy",
     ".grt",

@@ -1,6 +1,7 @@
 {
   "name": "HTML+PHP",
   "type": "markup",
+  "color": "#4f5d95",
   "tmScope": "text.html.php",
   "group": "HTML",
   "extensions": [

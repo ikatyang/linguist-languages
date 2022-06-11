@@ -1,6 +1,7 @@
 {
   "name": "Csound Document",
   "type": "programming",
+  "color": "#1a1a1a",
   "aliases": [
     "csound-csd"
   ],

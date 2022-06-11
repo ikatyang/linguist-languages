@@ -1,6 +1,7 @@
 {
   "name": "Genshi",
   "type": "programming",
+  "color": "#951531",
   "extensions": [
     ".kid"
   ],

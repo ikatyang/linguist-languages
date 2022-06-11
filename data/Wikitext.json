@@ -1,6 +1,7 @@
 {
   "name": "Wikitext",
   "type": "prose",
+  "color": "#fc5757",
   "wrap": true,
   "aliases": [
     "mediawiki",

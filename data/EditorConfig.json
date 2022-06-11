@@ -1,6 +1,7 @@
 {
   "name": "EditorConfig",
   "type": "data",
+  "color": "#fff1f2",
   "group": "INI",
   "filenames": [
     ".editorconfig"

@@ -1,6 +1,7 @@
 {
   "name": "ChucK",
   "type": "programming",
+  "color": "#3f8000",
   "extensions": [
     ".ck"
   ],

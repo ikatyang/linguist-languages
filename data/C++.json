@@ -24,6 +24,7 @@
     ".inl",
     ".ino",
     ".ipp",
+    ".ixx",
     ".re",
     ".tcc",
     ".tpp"

@@ -1,6 +1,7 @@
 {
   "name": "Gentoo Ebuild",
   "type": "programming",
+  "color": "#9400ff",
   "group": "Shell",
   "extensions": [
     ".ebuild"
