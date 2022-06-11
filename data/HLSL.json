@@ -1,6 +1,7 @@
 {
   "name": "HLSL",
   "type": "programming",
+  "color": "#aace60",
   "extensions": [
     ".hlsl",
     ".cginc",

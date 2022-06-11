@@ -1,6 +1,7 @@
 {
   "name": "4D",
   "type": "programming",
+  "color": "#004289",
   "extensions": [
     ".4dm"
   ],

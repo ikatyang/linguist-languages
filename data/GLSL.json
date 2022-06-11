@@ -1,6 +1,7 @@
 {
   "name": "GLSL",
   "type": "programming",
+  "color": "#5686a5",
   "extensions": [
     ".glsl",
     ".fp",
@@ -15,6 +16,8 @@
     ".glslv",
     ".gs",
     ".gshader",
+    ".rchit",
+    ".rmiss",
     ".shader",
     ".tesc",
     ".tese",

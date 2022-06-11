@@ -1,0 +1,15 @@
+{
+  "name": "Go Checksums",
+  "type": "data",
+  "color": "#00ADD8",
+  "aliases": [
+    "go.sum",
+    "go sum"
+  ],
+  "filenames": [
+    "go.sum"
+  ],
+  "tmScope": "go.sum",
+  "aceMode": "text",
+  "languageId": 1054391671
+}

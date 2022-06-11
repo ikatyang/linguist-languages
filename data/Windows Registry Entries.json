@@ -1,6 +1,7 @@
 {
   "name": "Windows Registry Entries",
   "type": "data",
+  "color": "#52d5ff",
   "extensions": [
     ".reg"
   ],

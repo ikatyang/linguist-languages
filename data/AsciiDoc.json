@@ -1,6 +1,7 @@
 {
   "name": "AsciiDoc",
   "type": "prose",
+  "color": "#73a0c5",
   "aceMode": "asciidoc",
   "wrap": true,
   "extensions": [

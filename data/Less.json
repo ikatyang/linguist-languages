@@ -2,6 +2,9 @@
   "name": "Less",
   "type": "markup",
   "color": "#1d365d",
+  "aliases": [
+    "less-css"
+  ],
   "extensions": [
     ".less"
   ],

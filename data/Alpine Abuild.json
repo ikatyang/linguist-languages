@@ -1,6 +1,7 @@
 {
   "name": "Alpine Abuild",
   "type": "programming",
+  "color": "#0D597F",
   "group": "Shell",
   "aliases": [
     "abuild",

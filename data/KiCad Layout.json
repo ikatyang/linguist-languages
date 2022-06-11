@@ -1,6 +1,7 @@
 {
   "name": "KiCad Layout",
   "type": "data",
+  "color": "#2f4aab",
   "aliases": [
     "pcbnew"
   ],

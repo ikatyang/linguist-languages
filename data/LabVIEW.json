@@ -1,8 +1,10 @@
 {
   "name": "LabVIEW",
   "type": "programming",
+  "color": "#fede06",
   "extensions": [
     ".lvproj",
+    ".lvclass",
     ".lvlib"
   ],
   "tmScope": "text.xml",

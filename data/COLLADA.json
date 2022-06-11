@@ -1,6 +1,7 @@
 {
   "name": "COLLADA",
   "type": "data",
+  "color": "#F1A42B",
   "extensions": [
     ".dae"
   ],

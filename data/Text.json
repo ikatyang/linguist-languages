@@ -14,6 +14,8 @@
     ".no"
   ],
   "filenames": [
+    "CITATION",
+    "CITATIONS",
     "COPYING",
     "COPYING.regex",
     "COPYRIGHT.regex",
@@ -23,14 +25,11 @@
     "LICENSE",
     "LICENSE.mysql",
     "NEWS",
-    "README.1ST",
     "README.me",
     "README.mysql",
     "README.nss",
     "click.me",
     "delete.me",
-    "go.mod",
-    "go.sum",
     "keep.me",
     "package.mask",
     "package.use.mask",

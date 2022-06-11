@@ -1,7 +1,7 @@
 {
   "name": "Vala",
   "type": "programming",
-  "color": "#fbe5cd",
+  "color": "#a56de2",
   "extensions": [
     ".vala",
     ".vapi"

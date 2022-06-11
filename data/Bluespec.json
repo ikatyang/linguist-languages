@@ -1,6 +1,7 @@
 {
   "name": "Bluespec",
   "type": "programming",
+  "color": "#12223c",
   "extensions": [
     ".bsv"
   ],

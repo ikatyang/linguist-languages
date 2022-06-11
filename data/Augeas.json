@@ -1,6 +1,7 @@
 {
   "name": "Augeas",
   "type": "programming",
+  "color": "#9CC134",
   "extensions": [
     ".aug"
   ],

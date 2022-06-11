@@ -1,6 +1,7 @@
 {
   "name": "TOML",
   "type": "data",
+  "color": "#9c4221",
   "extensions": [
     ".toml"
   ],

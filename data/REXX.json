@@ -1,6 +1,7 @@
 {
   "name": "REXX",
   "type": "programming",
+  "color": "#d90e09",
   "aliases": [
     "arexx"
   ],

@@ -1,6 +1,7 @@
 {
   "name": "BibTeX",
   "type": "markup",
+  "color": "#778899",
   "group": "TeX",
   "extensions": [
     ".bib",

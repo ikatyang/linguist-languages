@@ -1,6 +1,7 @@
 {
   "name": "Literate Haskell",
   "type": "programming",
+  "color": "#5e5086",
   "group": "Haskell",
   "aliases": [
     "lhaskell",

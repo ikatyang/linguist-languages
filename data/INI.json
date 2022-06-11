@@ -1,6 +1,7 @@
 {
   "name": "INI",
   "type": "data",
+  "color": "#d1dbe0",
   "extensions": [
     ".ini",
     ".cfg",
@@ -8,10 +9,15 @@
     ".lektorproject",
     ".prefs",
     ".pro",
-    ".properties"
+    ".properties",
+    ".url"
   ],
   "filenames": [
-    "buildozer.spec"
+    ".coveragerc",
+    ".flake8",
+    ".pylintrc",
+    "buildozer.spec",
+    "pylintrc"
   ],
   "tmScope": "source.ini",
   "aliases": [

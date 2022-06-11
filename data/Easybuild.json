@@ -1,6 +1,7 @@
 {
   "name": "Easybuild",
   "type": "data",
+  "color": "#069406",
   "group": "Python",
   "aceMode": "python",
   "codemirrorMode": "python",

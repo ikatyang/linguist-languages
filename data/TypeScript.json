@@ -1,7 +1,7 @@
 {
   "name": "TypeScript",
   "type": "programming",
-  "color": "#2b7489",
+  "color": "#3178c6",
   "aliases": [
     "ts"
   ],
@@ -10,7 +10,9 @@
     "ts-node"
   ],
   "extensions": [
-    ".ts"
+    ".ts",
+    ".cts",
+    ".mts"
   ],
   "tmScope": "source.ts",
   "aceMode": "typescript",

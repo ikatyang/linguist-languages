@@ -1,6 +1,7 @@
 {
   "name": "reStructuredText",
   "type": "prose",
+  "color": "#141414",
   "wrap": true,
   "aliases": [
     "rst"

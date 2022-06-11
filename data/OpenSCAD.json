@@ -1,6 +1,7 @@
 {
   "name": "OpenSCAD",
   "type": "programming",
+  "color": "#e5cd45",
   "extensions": [
     ".scad"
   ],

@@ -1,6 +1,7 @@
 {
   "name": "OpenCL",
   "type": "programming",
+  "color": "#ed2e2d",
   "group": "C",
   "extensions": [
     ".cl",

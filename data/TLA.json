@@ -1,6 +1,7 @@
 {
   "name": "TLA",
   "type": "programming",
+  "color": "#4b0079",
   "extensions": [
     ".tla"
   ],

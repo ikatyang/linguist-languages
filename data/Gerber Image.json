@@ -1,6 +1,7 @@
 {
   "name": "Gerber Image",
   "type": "data",
+  "color": "#d20b00",
   "aliases": [
     "rs-274x"
   ],

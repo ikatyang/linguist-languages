@@ -1,5 +1,5 @@
 {
-  "name": "Vim script",
+  "name": "Vim Script",
   "type": "programming",
   "color": "#199f4b",
   "tmScope": "source.viml",
@@ -11,6 +11,7 @@
   "extensions": [
     ".vim",
     ".vba",
+    ".vimrc",
     ".vmb"
   ],
   "filenames": [

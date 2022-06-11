@@ -1,6 +1,7 @@
 {
   "name": "fish",
   "type": "programming",
+  "color": "#4aae47",
   "group": "Shell",
   "interpreters": [
     "fish"

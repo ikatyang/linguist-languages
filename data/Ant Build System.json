@@ -1,6 +1,7 @@
 {
   "name": "Ant Build System",
   "type": "data",
+  "color": "#A9157E",
   "tmScope": "text.xml.ant",
   "filenames": [
     "ant.xml",

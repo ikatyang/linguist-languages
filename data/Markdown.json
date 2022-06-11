@@ -11,6 +11,7 @@
   "wrap": true,
   "extensions": [
     ".md",
+    ".livemd",
     ".markdown",
     ".mdown",
     ".mdwn",

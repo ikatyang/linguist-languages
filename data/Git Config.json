@@ -1,6 +1,7 @@
 {
   "name": "Git Config",
   "type": "data",
+  "color": "#F44D27",
   "group": "INI",
   "aliases": [
     "gitconfig",

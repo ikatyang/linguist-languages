@@ -1,6 +1,7 @@
 {
   "name": "mupad",
   "type": "programming",
+  "color": "#244963",
   "extensions": [
     ".mu"
   ],

@@ -1,6 +1,7 @@
 {
   "name": "CWeb",
   "type": "programming",
+  "color": "#00007a",
   "extensions": [
     ".w"
   ],

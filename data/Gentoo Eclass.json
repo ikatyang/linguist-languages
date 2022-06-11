@@ -1,6 +1,7 @@
 {
   "name": "Gentoo Eclass",
   "type": "programming",
+  "color": "#9400ff",
   "group": "Shell",
   "extensions": [
     ".eclass"

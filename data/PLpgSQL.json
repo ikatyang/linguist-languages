@@ -1,6 +1,7 @@
 {
   "name": "PLpgSQL",
   "type": "programming",
+  "color": "#336790",
   "aceMode": "pgsql",
   "codemirrorMode": "sql",
   "codemirrorMimeType": "text/x-sql",

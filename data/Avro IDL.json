@@ -1,6 +1,7 @@
 {
   "name": "Avro IDL",
   "type": "data",
+  "color": "#0040FF",
   "extensions": [
     ".avdl"
   ],

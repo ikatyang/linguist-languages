@@ -1,6 +1,7 @@
 {
   "name": "Mathematica",
   "type": "programming",
+  "color": "#dd1100",
   "extensions": [
     ".mathematica",
     ".cdf",

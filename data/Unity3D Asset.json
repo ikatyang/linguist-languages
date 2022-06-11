@@ -1,6 +1,7 @@
 {
   "name": "Unity3D Asset",
   "type": "data",
+  "color": "#222c37",
   "aceMode": "yaml",
   "codemirrorMode": "yaml",
   "codemirrorMimeType": "text/x-yaml",

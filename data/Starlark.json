@@ -7,7 +7,8 @@
   "codemirrorMimeType": "text/x-python",
   "color": "#76d275",
   "extensions": [
-    ".bzl"
+    ".bzl",
+    ".star"
   ],
   "filenames": [
     "BUCK",

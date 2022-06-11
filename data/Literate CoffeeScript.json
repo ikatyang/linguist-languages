@@ -1,6 +1,7 @@
 {
   "name": "Literate CoffeeScript",
   "type": "programming",
+  "color": "#244776",
   "tmScope": "source.litcoffee",
   "group": "CoffeeScript",
   "aceMode": "text",

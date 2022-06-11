@@ -1,6 +1,7 @@
 {
   "name": "XML",
   "type": "data",
+  "color": "#0060ac",
   "tmScope": "text.xml",
   "aceMode": "xml",
   "codemirrorMode": "xml",
@@ -15,6 +16,7 @@
     ".adml",
     ".admx",
     ".ant",
+    ".axaml",
     ".axml",
     ".builds",
     ".ccproj",
@@ -40,6 +42,7 @@
     ".gmx",
     ".grxml",
     ".gst",
+    ".hzp",
     ".iml",
     ".ivy",
     ".jelly",

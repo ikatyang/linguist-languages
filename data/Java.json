@@ -7,7 +7,8 @@
   "codemirrorMimeType": "text/x-java",
   "color": "#b07219",
   "extensions": [
-    ".java"
+    ".java",
+    ".jav"
   ],
   "languageId": 181
 }

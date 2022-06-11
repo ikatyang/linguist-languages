@@ -1,6 +1,7 @@
 {
   "name": "World of Warcraft Addon Data",
   "type": "data",
+  "color": "#f7e43f",
   "extensions": [
     ".toc"
   ],

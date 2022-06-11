@@ -1,6 +1,7 @@
 {
   "name": "Xojo",
   "type": "programming",
+  "color": "#81bd41",
   "extensions": [
     ".xojo_code",
     ".xojo_menu",

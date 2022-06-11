@@ -1,6 +1,7 @@
 {
   "name": "Grace",
   "type": "programming",
+  "color": "#615f8b",
   "extensions": [
     ".grace"
   ],

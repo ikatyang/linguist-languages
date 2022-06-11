@@ -20,7 +20,8 @@
     ".sh.in",
     ".tmux",
     ".tool",
-    ".zsh"
+    ".zsh",
+    ".zsh-theme"
   ],
   "filenames": [
     ".bash_aliases",
@@ -32,6 +33,7 @@
     ".env",
     ".env.example",
     ".flaskenv",
+    ".kshrc",
     ".login",
     ".profile",
     ".zlogin",
@@ -47,6 +49,7 @@
     "bashrc",
     "cshrc",
     "gradlew",
+    "kshrc",
     "login",
     "man",
     "profile",

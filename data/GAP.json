@@ -1,6 +1,7 @@
 {
   "name": "GAP",
   "type": "programming",
+  "color": "#0000cc",
   "extensions": [
     ".g",
     ".gap",

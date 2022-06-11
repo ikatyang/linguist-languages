@@ -11,6 +11,7 @@
   ],
   "extensions": [
     ".html",
+    ".hta",
     ".htm",
     ".html.hl",
     ".inc",
