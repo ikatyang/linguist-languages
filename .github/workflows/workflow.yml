@@ -1,0 +1,13 @@
+on:
+  - push
+  - pull_request
+
+jobs:
+  lint:
+    uses: ./.github/workflows/_shared.yml
+    with:
+      command: yarn run lint
+  test:
+    uses: ./.github/workflows/_shared.yml
+    with:
+      command: yarn run test
