@@ -651,86 +651,84 @@ type LanguageName =
   | "sed"
   | "wdl"
   | "wisp"
-  | "xBase";
+  | "xBase"
 
-declare const LinguistLanguages: Record<LanguageName, LinguistLanguages.Language>;
-
-declare namespace LinguistLanguages {
-  interface Language {
-    name: string;
-    /**
-     * Either data, programming, markup, prose, or nil
-     */
-    type: string;
-    /**
-     * CSS hex color to represent the language. Only used if type is "programming" or "markup".
-     */
-    color?: string;
-    /**
-     * An Array of associated extensions (the first one is
-     * considered the primary extension, the others should be
-     * listed alphabetically)
-     */
-    extensions?: string[];
-    /**
-     * The TextMate scope that represents this programming
-     * language. This should match one of the scopes listed in
-     * the grammars.yml file. Use "none" if there is no grammar
-     * for this language.
-     */
-    tmScope: string;
-    /**
-     * A String name of the Ace Mode used for highlighting whenever
-     * a file is edited. This must match one of the filenames in http://git.io/3XO_Cg.
-     * Use "text" if a mode does not exist.
-     */
-    aceMode: string;
-    /**
-     * Integer used as a language-name-independent indexed field so that we can rename
-     * languages in Linguist without reindexing all the code on GitHub. Must not be
-     * changed for existing languages without the explicit permission of GitHub staff.
-     */
-    languageId: number;
-    /**
-     * An Array of additional aliases (implicitly
-     * includes name.downcase)
-     */
-    aliases?: string[];
-    /**
-     * A String name of the CodeMirror Mode used for highlighting whenever a file is edited.
-     * This must match a mode from https://git.io/vi9Fx
-     */
-    codemirrorMode?: string;
-    /**
-     * A String name of the file mime type used for highlighting whenever a file is edited.
-     * This should match the `mime` associated with the mode from https://git.io/f4SoQ
-     */
-    codemirrorMimeType?: string;
-    /**
-     * An Array of associated interpreters
-     */
-    interpreters?: string[];
-    /**
-     * Name of the parent language. Languages in a group are counted
-     * in the statistics as the parent language.
-     */
-    group?: string;
-    /**
-     * An Array of filenames commonly associated with the language
-     */
-    filenames?: string[];
-    /**
-     * Boolean wrap to enable line wrapping (default: false)
-     */
-    wrap?: boolean;
-    /**
-     * Optional field. Only necessary as a replacement for the sample directory name if the
-     * language name is not a valid filename under the Windows filesystem (e.g., if it
-     * contains an asterisk).
-     */
-    fsName?: string;
-    searchable?: boolean;
-  }
+export interface Language {
+  name: string
+  /**
+   * Either data, programming, markup, prose, or nil
+   */
+  type: string
+  /**
+   * CSS hex color to represent the language. Only used if type is "programming" or "markup".
+   */
+  color?: string
+  /**
+   * An Array of associated extensions (the first one is
+   * considered the primary extension, the others should be
+   * listed alphabetically)
+   */
+  extensions?: string[]
+  /**
+   * The TextMate scope that represents this programming
+   * language. This should match one of the scopes listed in
+   * the grammars.yml file. Use "none" if there is no grammar
+   * for this language.
+   */
+  tmScope: string
+  /**
+   * A String name of the Ace Mode used for highlighting whenever
+   * a file is edited. This must match one of the filenames in http://git.io/3XO_Cg.
+   * Use "text" if a mode does not exist.
+   */
+  aceMode: string
+  /**
+   * Integer used as a language-name-independent indexed field so that we can rename
+   * languages in Linguist without reindexing all the code on GitHub. Must not be
+   * changed for existing languages without the explicit permission of GitHub staff.
+   */
+  languageId: number
+  /**
+   * An Array of additional aliases (implicitly
+   * includes name.downcase)
+   */
+  aliases?: string[]
+  /**
+   * A String name of the CodeMirror Mode used for highlighting whenever a file is edited.
+   * This must match a mode from https://git.io/vi9Fx
+   */
+  codemirrorMode?: string
+  /**
+   * A String name of the file mime type used for highlighting whenever a file is edited.
+   * This should match the `mime` associated with the mode from https://git.io/f4SoQ
+   */
+  codemirrorMimeType?: string
+  /**
+   * An Array of associated interpreters
+   */
+  interpreters?: string[]
+  /**
+   * Name of the parent language. Languages in a group are counted
+   * in the statistics as the parent language.
+   */
+  group?: string
+  /**
+   * An Array of filenames commonly associated with the language
+   */
+  filenames?: string[]
+  /**
+   * Boolean wrap to enable line wrapping (default: false)
+   */
+  wrap?: boolean
+  /**
+   * Optional field. Only necessary as a replacement for the sample directory name if the
+   * language name is not a valid filename under the Windows filesystem (e.g., if it
+   * contains an asterisk).
+   */
+  fsName?: string
+  searchable?: boolean
 }
 
-export = LinguistLanguages;
+declare const languages: Record<LanguageName, Language>
+
+export default languages

@@ -1,0 +1,31 @@
+export default {
+  "name": "Markdown",
+  "type": "prose",
+  "color": "#083fa1",
+  "aliases": [
+    "pandoc"
+  ],
+  "aceMode": "markdown",
+  "codemirrorMode": "gfm",
+  "codemirrorMimeType": "text/x-gfm",
+  "wrap": true,
+  "extensions": [
+    ".md",
+    ".livemd",
+    ".markdown",
+    ".mdown",
+    ".mdwn",
+    ".mdx",
+    ".mkd",
+    ".mkdn",
+    ".mkdown",
+    ".ronn",
+    ".scd",
+    ".workbook"
+  ],
+  "filenames": [
+    "contents.lr"
+  ],
+  "tmScope": "source.gfm",
+  "languageId": 222
+}

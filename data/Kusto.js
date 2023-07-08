@@ -1,0 +1,10 @@
+export default {
+  "name": "Kusto",
+  "type": "data",
+  "extensions": [
+    ".csl"
+  ],
+  "tmScope": "source.kusto",
+  "aceMode": "text",
+  "languageId": 225697190
+}

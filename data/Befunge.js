@@ -1,0 +1,10 @@
+export default {
+  "name": "Befunge",
+  "type": "programming",
+  "extensions": [
+    ".befunge"
+  ],
+  "tmScope": "source.befunge",
+  "aceMode": "text",
+  "languageId": 30
+}
