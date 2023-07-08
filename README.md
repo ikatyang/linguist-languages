@@ -14,13 +14,13 @@ npm install linguist-languages
 ## Usage
 
 ```js
-const javascript = require("linguist-languages/data/JavaScript");
+const javascript = require('linguist-languages/data/JavaScript')
 ```
 
 or
 
 ```js
-const javascript = require("linguist-languages").JavaScript;
+const javascript = require('linguist-languages').JavaScript
 ```
 
 ## Development
