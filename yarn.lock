@@ -2228,10 +2228,6 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-linguist@github/linguist#v7.21.0:
-  version "0.0.0"
-  resolved "https://codeload.github.com/github/linguist/tar.gz/d7799da826e01acdb8f84694d33116dccaabe9c2"
-
 load-json-file@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-4.0.0.tgz#2f5f45ab91e33216234fd53adab668eb4ec0993b"
