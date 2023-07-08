@@ -18,20 +18,22 @@ export function run(options?: {
   read?: (filename: string) => string
   write?: (filename: string, content: string) => void
 }) {
-  // istanbul ignore next
+  /* c8 ignore start */
   const {
     clean = true,
     read = (filename: string) => fs.readFileSync(filename, 'utf8'),
     write = (filename: string, content: string) =>
       fs.writeFileSync(filename, content + '\n'),
   } = options || {}
+  /* c8 ignore stop */
 
-  // istanbul ignore if
+  /* c8 ignore start */
   if (clean) {
     rm.sync([OUTPUT_LIB_DIRNAME, OUTPUT_DATA_DIRNAME])
     mkdir.sync(OUTPUT_LIB_DIRNAME)
     mkdir.sync(OUTPUT_DATA_DIRNAME)
   }
+  /* c8 ignore stop */
 
   const languagesContent = read(LANGUAGES_FILEPATH)
 
@@ -201,7 +203,8 @@ export function run(options?: {
   }
 }
 
-// istanbul ignore if
+/* c8 ignore start */
 if (module.parent === null) {
   run()
 }
+/* c8 ignore stop */
