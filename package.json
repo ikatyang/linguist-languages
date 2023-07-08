@@ -22,7 +22,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "prepublish": "yarn run build",
+    "prepack": "pnpm run build",
     "lint": "prettier --check .",
     "check": "tsc --noEmit",
     "test": "vitest",
@@ -50,5 +50,6 @@
     "/lib/**/*",
     "/data/**/*",
     "/ThirdPartyNoticeText.txt"
-  ]
+  ],
+  "packageManager": "pnpm@8.6.6"
 }

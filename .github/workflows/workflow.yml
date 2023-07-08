@@ -6,12 +6,16 @@ jobs:
   lint:
     uses: ./.github/workflows/_shared.yml
     with:
-      command: yarn run lint
+      command: pnpm run lint
   check:
     uses: ./.github/workflows/_shared.yml
     with:
-      command: yarn run check
+      command: pnpm run check
+  build:
+    uses: ./.github/workflows/_shared.yml
+    with:
+      command: pnpm run build
   test:
     uses: ./.github/workflows/_shared.yml
     with:
-      command: yarn run test
+      command: pnpm run test
