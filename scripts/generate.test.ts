@@ -1,5 +1,8 @@
+import { test, expect } from 'vitest'
 import { run } from './generate'
-import { wrap } from 'jest-snapshot-serializer-raw'
+import * as serializer from 'jest-snapshot-serializer-raw'
+
+expect.addSnapshotSerializer(serializer as any)
 
 const fakeLanguagesYml = `
 # Defines all Languages known to GitHub.
@@ -61,7 +64,7 @@ test('run', () => {
   })
 
   writes.forEach(([filename, content]) => {
-    expect(wrap(content)).toMatchSnapshot(
+    expect(serializer.wrap(content)).toMatchSnapshot(
       filename.replace(process.cwd(), '<cwd>'),
     )
   })

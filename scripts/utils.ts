@@ -40,16 +40,16 @@ export function getFieldType<T extends BaseType>(
     return { type: getBaseType(value) }
   }
 
-  // istanbul ignore else
   if (
     Array.isArray(value) &&
     new Set(value.map(x => typeof x)).size === 1 &&
     isBaseType(value[0])
   ) {
     return { type: 'array', subType: getBaseType(value[0]) }
-  } else {
+  } /* c8 ignore start */ else {
     throw new Error(`Unexpected value:\n\n${JSON.stringify(value, null, 2)}`)
   }
+  /* c8 ignore stop */
 }
 
 export function indent(value: string) {
