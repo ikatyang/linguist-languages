@@ -2,7 +2,7 @@ import assert from 'node:assert'
 import * as fs from 'node:fs'
 import * as path from 'node:path'
 import camelcase from 'camelcase'
-import rm from 'del'
+import { deleteSync } from 'del'
 import mkdir from 'make-dir'
 import { parse } from 'yaml'
 import { getFieldType, Field, indent } from './utils.js'
@@ -29,7 +29,7 @@ export function run(options?: {
 
   /* c8 ignore start */
   if (clean) {
-    rm.sync([OUTPUT_LIB_DIRNAME, OUTPUT_DATA_DIRNAME])
+    deleteSync([OUTPUT_LIB_DIRNAME, OUTPUT_DATA_DIRNAME])
     mkdir.sync(OUTPUT_LIB_DIRNAME)
     mkdir.sync(OUTPUT_DATA_DIRNAME)
   }
