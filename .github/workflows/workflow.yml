@@ -7,6 +7,10 @@ jobs:
     uses: ./.github/workflows/_shared.yml
     with:
       command: yarn run lint
+  check:
+    uses: ./.github/workflows/_shared.yml
+    with:
+      command: yarn run check
   test:
     uses: ./.github/workflows/_shared.yml
     with:
