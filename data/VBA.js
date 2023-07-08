@@ -6,13 +6,10 @@ export default {
     ".bas",
     ".cls",
     ".frm",
-    ".frx",
     ".vba"
   ],
-  "tmScope": "source.vbnet",
+  "tmScope": "source.vba",
   "aliases": [
-    "vb6",
-    "visual basic 6",
     "visual basic for applications"
   ],
   "aceMode": "text",

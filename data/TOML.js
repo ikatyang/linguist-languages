@@ -9,6 +9,7 @@ export default {
     "Cargo.lock",
     "Gopkg.lock",
     "Pipfile",
+    "pdm.lock",
     "poetry.lock"
   ],
   "tmScope": "source.toml",

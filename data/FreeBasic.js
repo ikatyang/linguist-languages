@@ -1,7 +1,7 @@
 export default {
   "name": "FreeBasic",
   "type": "programming",
-  "color": "#867db1",
+  "color": "#141AC9",
   "extensions": [
     ".bi",
     ".bas"

@@ -4,7 +4,8 @@ export default {
   "color": "#ff1111",
   "tmScope": "source.miniyaml",
   "extensions": [
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
   "aceMode": "yaml",
   "codemirrorMode": "yaml",

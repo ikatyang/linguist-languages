@@ -5,6 +5,7 @@ export default {
   "extensions": [
     ".ini",
     ".cfg",
+    ".cnf",
     ".dof",
     ".lektorproject",
     ".prefs",
@@ -16,8 +17,11 @@ export default {
     ".coveragerc",
     ".flake8",
     ".pylintrc",
+    "HOSTS",
     "buildozer.spec",
-    "pylintrc"
+    "hosts",
+    "pylintrc",
+    "vlcrc"
   ],
   "tmScope": "source.ini",
   "aliases": [

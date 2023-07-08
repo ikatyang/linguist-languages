@@ -13,5 +13,8 @@ export default {
   "aceMode": "rust",
   "codemirrorMode": "rust",
   "codemirrorMimeType": "text/x-rustsrc",
+  "interpreters": [
+    "rust-script"
+  ],
   "languageId": 327
 }

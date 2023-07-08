@@ -6,9 +6,8 @@ export default {
   "codemirrorMimeType": "text/x-yaml",
   "color": "#652B81",
   "extensions": [
-    ".lookml",
-    ".model.lkml",
-    ".view.lkml"
+    ".lkml",
+    ".lookml"
   ],
   "tmScope": "source.yaml",
   "languageId": 211

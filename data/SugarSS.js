@@ -3,7 +3,6 @@ export default {
   "type": "markup",
   "color": "#2fcc9f",
   "tmScope": "source.css.postcss.sugarss",
-  "group": "CSS",
   "extensions": [
     ".sss"
   ],

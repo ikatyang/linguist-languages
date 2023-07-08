@@ -4,10 +4,13 @@ export default {
   "color": "#00ADD8",
   "aliases": [
     "go.sum",
-    "go sum"
+    "go sum",
+    "go.work.sum",
+    "go work sum"
   ],
   "filenames": [
-    "go.sum"
+    "go.sum",
+    "go.work.sum"
   ],
   "tmScope": "go.sum",
   "aceMode": "text",

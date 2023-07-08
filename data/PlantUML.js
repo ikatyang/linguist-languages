@@ -1,6 +1,7 @@
 export default {
   "name": "PlantUML",
   "type": "data",
+  "color": "#fbbd16",
   "extensions": [
     ".puml",
     ".iuml",

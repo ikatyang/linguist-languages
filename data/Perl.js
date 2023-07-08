@@ -19,10 +19,12 @@ export default {
     ".t"
   ],
   "filenames": [
+    ".latexmkrc",
     "Makefile.PL",
     "Rexfile",
     "ack",
-    "cpanfile"
+    "cpanfile",
+    "latexmkrc"
   ],
   "interpreters": [
     "cperl",

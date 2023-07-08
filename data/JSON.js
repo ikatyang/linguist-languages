@@ -32,6 +32,7 @@ export default {
     ".yyp"
   ],
   "filenames": [
+    ".all-contributorsrc",
     ".arcconfig",
     ".auto-changelog",
     ".c8rc",
@@ -43,6 +44,7 @@ export default {
     ".watchmanconfig",
     "Pipfile.lock",
     "composer.lock",
+    "flake.lock",
     "mcmod.info"
   ],
   "languageId": 174

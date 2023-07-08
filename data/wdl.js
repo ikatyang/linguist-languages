@@ -1,5 +1,8 @@
 export default {
-  "name": "wdl",
+  "name": "WDL",
+  "aliases": [
+    "Workflow Description Language"
+  ],
   "type": "programming",
   "color": "#42f1f4",
   "extensions": [

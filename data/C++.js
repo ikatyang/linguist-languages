@@ -14,6 +14,7 @@ export default {
     ".c++",
     ".cc",
     ".cp",
+    ".cppm",
     ".cxx",
     ".h",
     ".h++",
@@ -27,7 +28,8 @@ export default {
     ".ixx",
     ".re",
     ".tcc",
-    ".tpp"
+    ".tpp",
+    ".txx"
   ],
   "languageId": 43
 }

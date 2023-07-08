@@ -4,6 +4,7 @@ export default {
   "color": "#B83998",
   "extensions": [
     ".erl",
+    ".app",
     ".app.src",
     ".es",
     ".escript",
