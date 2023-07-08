@@ -34,6 +34,7 @@ export default {
     ".jscsrc",
     ".jshintrc",
     ".jslintrc",
+    ".swcrc",
     "api-extractor.json",
     "devcontainer.json",
     "jsconfig.json",

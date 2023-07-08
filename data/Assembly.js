@@ -11,6 +11,7 @@ export default {
     ".a51",
     ".i",
     ".inc",
+    ".nas",
     ".nasm"
   ],
   "tmScope": "source.assembly",

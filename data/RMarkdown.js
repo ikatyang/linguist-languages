@@ -10,6 +10,6 @@ export default {
     ".qmd",
     ".rmd"
   ],
-  "tmScope": "source.gfm",
+  "tmScope": "text.md",
   "languageId": 313
 }

@@ -3,6 +3,9 @@ export default {
   "type": "data",
   "color": "#fff1f2",
   "group": "INI",
+  "extensions": [
+    ".editorconfig"
+  ],
   "filenames": [
     ".editorconfig"
   ],

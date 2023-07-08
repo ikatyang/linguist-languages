@@ -3,6 +3,7 @@ export default {
   "type": "prose",
   "color": "#083fa1",
   "aliases": [
+    "md",
     "pandoc"
   ],
   "aceMode": "markdown",
@@ -15,7 +16,6 @@ export default {
     ".markdown",
     ".mdown",
     ".mdwn",
-    ".mdx",
     ".mkd",
     ".mkdn",
     ".mkdown",
@@ -26,6 +26,6 @@ export default {
   "filenames": [
     "contents.lr"
   ],
-  "tmScope": "source.gfm",
+  "tmScope": "text.md",
   "languageId": 222
 }

@@ -5,8 +5,14 @@ export default {
   "extensions": [
     ".tcl",
     ".adp",
+    ".sdc",
     ".tcl.in",
-    ".tm"
+    ".tm",
+    ".xdc"
+  ],
+  "aliases": [
+    "sdc",
+    "xdc"
   ],
   "filenames": [
     "owh",

@@ -8,7 +8,8 @@ export default {
   "color": "#b07219",
   "extensions": [
     ".java",
-    ".jav"
+    ".jav",
+    ".jsh"
   ],
   "languageId": 181
 }

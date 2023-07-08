@@ -2,6 +2,7 @@ export default {
   "name": "Protocol Buffer",
   "type": "data",
   "aliases": [
+    "proto",
     "protobuf",
     "Protocol Buffers"
   ],

@@ -2,7 +2,8 @@ export default {
   "name": "Befunge",
   "type": "programming",
   "extensions": [
-    ".befunge"
+    ".befunge",
+    ".bf"
   ],
   "tmScope": "source.befunge",
   "aceMode": "text",

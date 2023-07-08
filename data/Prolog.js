@@ -4,6 +4,7 @@ export default {
   "color": "#74283c",
   "extensions": [
     ".pl",
+    ".plt",
     ".pro",
     ".prolog",
     ".yap"

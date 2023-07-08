@@ -5,7 +5,7 @@ export default {
     ".lol"
   ],
   "color": "#cc9900",
-  "tmScope": "none",
+  "tmScope": "source.lolcode",
   "aceMode": "text",
   "languageId": 192
 }

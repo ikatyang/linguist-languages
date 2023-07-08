@@ -20,7 +20,6 @@ export default {
     ".pyt",
     ".pyw",
     ".rpy",
-    ".smk",
     ".spec",
     ".tac",
     ".wsgi",
@@ -31,13 +30,15 @@ export default {
     "DEPS",
     "SConscript",
     "SConstruct",
-    "Snakefile",
     "wscript"
   ],
   "interpreters": [
     "python",
     "python2",
-    "python3"
+    "python3",
+    "py",
+    "pypy",
+    "pypy3"
   ],
   "aliases": [
     "python3",

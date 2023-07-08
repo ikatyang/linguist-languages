@@ -14,8 +14,10 @@ export default {
     "BUCK",
     "BUILD",
     "BUILD.bazel",
+    "MODULE.bazel",
     "Tiltfile",
-    "WORKSPACE"
+    "WORKSPACE",
+    "WORKSPACE.bazel"
   ],
   "aliases": [
     "bazel",

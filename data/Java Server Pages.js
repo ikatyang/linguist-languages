@@ -7,7 +7,8 @@ export default {
     "jsp"
   ],
   "extensions": [
-    ".jsp"
+    ".jsp",
+    ".tag"
   ],
   "tmScope": "text.html.jsp",
   "aceMode": "jsp",

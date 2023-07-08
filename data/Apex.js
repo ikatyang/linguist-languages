@@ -3,9 +3,10 @@ export default {
   "type": "programming",
   "color": "#1797c0",
   "extensions": [
-    ".cls"
+    ".cls",
+    ".trigger"
   ],
-  "tmScope": "source.java",
+  "tmScope": "source.apex",
   "aceMode": "java",
   "codemirrorMode": "clike",
   "codemirrorMimeType": "text/x-java",

@@ -2,7 +2,8 @@ export default {
   "name": "Kusto",
   "type": "data",
   "extensions": [
-    ".csl"
+    ".csl",
+    ".kql"
   ],
   "tmScope": "source.kusto",
   "aceMode": "text",

@@ -4,7 +4,7 @@ export default {
   "aceMode": "ocaml",
   "codemirrorMode": "mllike",
   "codemirrorMimeType": "text/x-ocaml",
-  "color": "#3be133",
+  "color": "#ef7a08",
   "extensions": [
     ".ml",
     ".eliom",
