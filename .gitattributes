@@ -1,5 +1,0 @@
-* text eol=lf
-*.png binary
-
-data/** linguist-generated=true
-lib/** linguist-generated=true
