@@ -21,6 +21,7 @@
   "scripts": {
     "prepublish": "yarn run build",
     "lint": "prettier --check .",
+    "check": "tsc --noEmit",
     "test": "vitest",
     "build": "vite-node ./scripts/generate.ts"
   },
@@ -33,7 +34,7 @@
     "jest-snapshot-serializer-raw": "1.2.0",
     "make-dir": "3.0.0",
     "prettier": "3.0.0",
-    "typescript": "3.5.3",
+    "typescript": "5.1.6",
     "vite": "4.4.2",
     "vite-node": "0.33.0",
     "vitest": "0.33.0",
