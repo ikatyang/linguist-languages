@@ -2,7 +2,7 @@ import assert = require('assert')
 import camelcase = require('camelcase')
 import rm = require('del')
 import * as fs from 'fs'
-import * as jsYaml from 'js-yaml'
+import { parse } from 'yaml'
 import mkdir = require('make-dir')
 import * as path from 'path'
 import { getFieldType, Field, indent } from './utils'
@@ -84,7 +84,7 @@ export function run(options?: {
           }),
         { name },
       )
-    }))(jsYaml.safeLoad(languagesContent) as Record<string, any>)
+    }))(parse(languagesContent) as Record<string, any>)
 
   /**
    * - true: required
