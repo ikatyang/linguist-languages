@@ -32,7 +32,6 @@
     "del": "4.1.1",
     "jest": "24.9.0",
     "jest-snapshot-serializer-raw": "1.1.0",
-    "linguist": "github/linguist#v7.21.0",
     "make-dir": "3.0.0",
     "prettier": "3.0.0",
     "ts-jest": "24.0.2",

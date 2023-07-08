@@ -2,6 +2,7 @@ module.exports = {
   testEnvironment: 'node',
   moduleFileExtensions: ['ts', 'js', 'json'],
   testMatch: ['**/tests/**/*.ts', '**/*.test.ts'],
+  testPathIgnorePatterns: ['/node_modules/', '/vendor/'],
   transform: { '\\.ts$': 'ts-jest' },
   coverageReporters: ['lcov', 'text-summary'],
   collectCoverage: !!process.env.CI,

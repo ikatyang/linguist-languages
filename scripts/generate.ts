@@ -10,7 +10,7 @@ import { getFieldType, Field, indent } from './utils'
 const OUTPUT_LIB_DIRNAME = path.resolve(__dirname, '../lib')
 const OUTPUT_DATA_DIRNAME = path.resolve(__dirname, '../data')
 
-const LANGUAGES_FILEPATH = './node_modules/linguist/lib/linguist/languages.yml'
+const LANGUAGES_FILEPATH = './vendor/linguist/lib/linguist/languages.yml'
 const NAME_FIELD = 'name'
 
 export function run(options?: {
