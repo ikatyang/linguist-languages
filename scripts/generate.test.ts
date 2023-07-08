@@ -1,5 +1,5 @@
-import { run } from "./generate";
-import { wrap } from "jest-snapshot-serializer-raw";
+import { run } from './generate'
+import { wrap } from 'jest-snapshot-serializer-raw'
 
 const fakeLanguagesYml = `
 # Defines all Languages known to GitHub.
@@ -49,20 +49,20 @@ F*:
   tm_scope: source.fstar
   ace_mode: text
   language_id: 336943375
-`;
+`
 
-const writes: [string, string][] = [];
+const writes: [string, string][] = []
 
-test("run", () => {
+test('run', () => {
   run({
     clean: false,
     read: () => fakeLanguagesYml,
-    write: (filename, content) => writes.push([filename, content])
-  });
+    write: (filename, content) => writes.push([filename, content]),
+  })
 
   writes.forEach(([filename, content]) => {
     expect(wrap(content)).toMatchSnapshot(
-      filename.replace(process.cwd(), "<cwd>")
-    );
-  });
-});
+      filename.replace(process.cwd(), '<cwd>'),
+    )
+  })
+})

@@ -20,7 +20,7 @@
   "license": "MIT",
   "scripts": {
     "prepublish": "yarn run build",
-    "lint": "tslint -p .",
+    "lint": "prettier --check .",
     "test": "jest",
     "build": "ts-node ./scripts/generate.ts"
   },
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@types/jest": "24.0.18",
     "@types/js-yaml": "3.12.1",
-    "@types/node": "10.14.16",
+    "@types/node": "18.16.19",
     "camelcase": "5.3.1",
     "del": "4.1.1",
     "jest": "24.9.0",
@@ -36,11 +36,9 @@
     "js-yaml": "3.13.1",
     "linguist": "github/linguist#v7.21.0",
     "make-dir": "3.0.0",
-    "prettier": "1.18.2",
+    "prettier": "3.0.0",
     "ts-jest": "24.0.2",
     "ts-node": "8.3.0",
-    "tslint": "5.19.0",
-    "tslint-plugin-prettier": "2.0.1",
     "typescript": "3.5.3"
   },
   "files": [
