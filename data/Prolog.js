@@ -1,0 +1,18 @@
+export default {
+  "name": "Prolog",
+  "type": "programming",
+  "color": "#74283c",
+  "extensions": [
+    ".pl",
+    ".pro",
+    ".prolog",
+    ".yap"
+  ],
+  "interpreters": [
+    "swipl",
+    "yap"
+  ],
+  "tmScope": "source.prolog",
+  "aceMode": "prolog",
+  "languageId": 295
+}

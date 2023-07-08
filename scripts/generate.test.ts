@@ -1,6 +1,6 @@
-import { test, expect } from 'vitest'
-import { run } from './generate'
 import * as serializer from 'jest-snapshot-serializer-raw'
+import { test, expect } from 'vitest'
+import { run } from './generate.js'
 
 expect.addSnapshotSerializer(serializer as any)
 

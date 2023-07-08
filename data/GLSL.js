@@ -1,0 +1,32 @@
+export default {
+  "name": "GLSL",
+  "type": "programming",
+  "color": "#5686a5",
+  "extensions": [
+    ".glsl",
+    ".fp",
+    ".frag",
+    ".frg",
+    ".fs",
+    ".fsh",
+    ".fshader",
+    ".geo",
+    ".geom",
+    ".glslf",
+    ".glslv",
+    ".gs",
+    ".gshader",
+    ".rchit",
+    ".rmiss",
+    ".shader",
+    ".tesc",
+    ".tese",
+    ".vert",
+    ".vrx",
+    ".vsh",
+    ".vshader"
+  ],
+  "tmScope": "source.glsl",
+  "aceMode": "glsl",
+  "languageId": 124
+}

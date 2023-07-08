@@ -1,0 +1,12 @@
+export default {
+  "name": "PlantUML",
+  "type": "data",
+  "extensions": [
+    ".puml",
+    ".iuml",
+    ".plantuml"
+  ],
+  "tmScope": "source.wsd",
+  "aceMode": "text",
+  "languageId": 833504686
+}

@@ -1,11 +1,11 @@
-import assert = require('assert')
-import camelcase = require('camelcase')
-import rm = require('del')
-import * as fs from 'fs'
+import assert from 'node:assert'
+import * as fs from 'node:fs'
+import * as path from 'node:path'
+import camelcase from 'camelcase'
+import rm from 'del'
+import mkdir from 'make-dir'
 import { parse } from 'yaml'
-import mkdir = require('make-dir')
-import * as path from 'path'
-import { getFieldType, Field, indent } from './utils'
+import { getFieldType, Field, indent } from './utils.js'
 
 const OUTPUT_LIB_DIRNAME = path.resolve(__dirname, '../lib')
 const OUTPUT_DATA_DIRNAME = path.resolve(__dirname, '../data')
@@ -130,24 +130,29 @@ export function run(options?: {
 
   //---------------------------------write-file---------------------------------
 
-  const interfaceIndentifier = 'Language'
+  const interfaceIdentifier = 'Language'
+
+  // FIXME: use named export once supported
+  // Ref: https://github.com/microsoft/TypeScript/issues/40594
 
   write(
     path.resolve(OUTPUT_LIB_DIRNAME, 'index.js'),
-    `module.exports = {\n${languages
-      .map(
-        language =>
-          `  ${JSON.stringify(language.name)}: require(${JSON.stringify(
-            path.join(
+    [
+      ...languages.map(
+        (_, i) =>
+          `import _${i} from ${JSON.stringify(
+            `${path.join(
               path.relative(OUTPUT_LIB_DIRNAME, OUTPUT_DATA_DIRNAME),
-              getDataBasename(language),
-            ),
-          )})`,
-      )
-      .join(',\n')}\n};`,
+              encodeURIComponent(getDataBasename(_)),
+            )}.js`,
+          )}`,
+      ),
+      `export default {`,
+      ...languages.map((_, i) => `  ${JSON.stringify(_.name)}: _${i},`),
+      `}`,
+    ].join('\n'),
   )
   ;(() => {
-    const namespaceIndentifier = 'LinguistLanguages'
     const languageNameIdentifier = 'LanguageName'
     write(
       path.resolve(OUTPUT_LIB_DIRNAME, 'index.d.ts'),
@@ -156,17 +161,15 @@ export function run(options?: {
           languages
             .map(language => `| ${JSON.stringify(language.name)}`)
             .join('\n'),
-        )};`,
-        `declare const ${namespaceIndentifier}: Record<${languageNameIdentifier}, ${namespaceIndentifier}.${interfaceIndentifier}>;`,
-        `declare namespace ${namespaceIndentifier} {\n${indent(
-          createInterface(),
-        )}\n}`,
-        `export = ${namespaceIndentifier};`,
+        )}`,
+        `export ${createInterface()}`,
+        `declare const languages: Record<${languageNameIdentifier}, ${interfaceIdentifier}>`,
+        `export default languages`,
       ].join('\n\n'),
     )
 
     function createInterface() {
-      return `interface ${interfaceIndentifier} {\n${indent(
+      return `interface ${interfaceIdentifier} {\n${indent(
         Object.keys(fieldTypes)
           .map(
             fieldName =>
@@ -180,7 +183,7 @@ export function run(options?: {
                 : '') +
               `${fieldName}${
                 fieldRequireds[fieldName] ? '' : '?'
-              }: ${createFieldDefinition(fieldTypes[fieldName])};`,
+              }: ${createFieldDefinition(fieldTypes[fieldName])}`,
           )
           .join('\n'),
       )}\n}`
@@ -193,8 +196,8 @@ export function run(options?: {
   languages.forEach(language => {
     const basename = getDataBasename(language)
     write(
-      path.resolve(OUTPUT_DATA_DIRNAME, `${basename}.json`),
-      JSON.stringify(language, null, 2),
+      path.resolve(OUTPUT_DATA_DIRNAME, `${basename}.js`),
+      `export default ${JSON.stringify(language, null, 2)}`,
     )
   })
 
@@ -204,7 +207,7 @@ export function run(options?: {
 }
 
 /* c8 ignore start */
-if (module.parent === null) {
+if (process.argv[2] === 'run') {
   run()
 }
 /* c8 ignore stop */
