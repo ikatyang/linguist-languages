@@ -1,6 +1,6 @@
 {
   "name": "linguist-languages",
-  "version": "7.26.0",
+  "version": "7.26.1",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "description": "Linguist languages.yml in JSON format",
