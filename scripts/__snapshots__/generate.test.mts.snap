@@ -1,0 +1,310 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`run > <cwd>/data/Fstar.d.mts 1`] = `
+declare const _: {
+  "name": "F*",
+  "fsName": "Fstar",
+  "type": "programming",
+  "color": "#572e30",
+  "aliases": [
+    "fstar"
+  ],
+  "extensions": [
+    ".fst"
+  ],
+  "tmScope": "source.fstar",
+  "aceMode": "text",
+  "languageId": 336943375
+}
+export default _
+`;
+
+exports[`run > <cwd>/data/Fstar.d.ts 1`] = `
+declare const _: {
+  "name": "F*",
+  "fsName": "Fstar",
+  "type": "programming",
+  "color": "#572e30",
+  "aliases": [
+    "fstar"
+  ],
+  "extensions": [
+    ".fst"
+  ],
+  "tmScope": "source.fstar",
+  "aceMode": "text",
+  "languageId": 336943375
+}
+export = _
+`;
+
+exports[`run > <cwd>/data/Fstar.js 1`] = `
+module.exports = {
+  "name": "F*",
+  "fsName": "Fstar",
+  "type": "programming",
+  "color": "#572e30",
+  "aliases": [
+    "fstar"
+  ],
+  "extensions": [
+    ".fst"
+  ],
+  "tmScope": "source.fstar",
+  "aceMode": "text",
+  "languageId": 336943375
+}
+`;
+
+exports[`run > <cwd>/data/Fstar.mjs 1`] = `
+export default {
+  "name": "F*",
+  "fsName": "Fstar",
+  "type": "programming",
+  "color": "#572e30",
+  "aliases": [
+    "fstar"
+  ],
+  "extensions": [
+    ".fst"
+  ],
+  "tmScope": "source.fstar",
+  "aceMode": "text",
+  "languageId": 336943375
+}
+`;
+
+exports[`run > <cwd>/data/Test Test 2.d.mts 1`] = `
+declare const _: {
+  "name": "Test Test 2",
+  "type": "programming",
+  "color": "#E8274B",
+  "extensions": [
+    ".abap"
+  ],
+  "aceMode": "abap",
+  "wrap": true,
+  "languageId": 1
+}
+export default _
+`;
+
+exports[`run > <cwd>/data/Test Test 2.d.ts 1`] = `
+declare const _: {
+  "name": "Test Test 2",
+  "type": "programming",
+  "color": "#E8274B",
+  "extensions": [
+    ".abap"
+  ],
+  "aceMode": "abap",
+  "wrap": true,
+  "languageId": 1
+}
+export = _
+`;
+
+exports[`run > <cwd>/data/Test Test 2.js 1`] = `
+module.exports = {
+  "name": "Test Test 2",
+  "type": "programming",
+  "color": "#E8274B",
+  "extensions": [
+    ".abap"
+  ],
+  "aceMode": "abap",
+  "wrap": true,
+  "languageId": 1
+}
+`;
+
+exports[`run > <cwd>/data/Test Test 2.mjs 1`] = `
+export default {
+  "name": "Test Test 2",
+  "type": "programming",
+  "color": "#E8274B",
+  "extensions": [
+    ".abap"
+  ],
+  "aceMode": "abap",
+  "wrap": true,
+  "languageId": 1
+}
+`;
+
+exports[`run > <cwd>/data/Test1.d.mts 1`] = `
+declare const _: {
+  "name": "Test1",
+  "type": "programming",
+  "color": "#814CCC",
+  "aliases": [
+    "hello"
+  ],
+  "extensions": [
+    ".bsl",
+    ".os"
+  ],
+  "tmScope": "source.bsl",
+  "aceMode": "text",
+  "languageId": 0
+}
+export default _
+`;
+
+exports[`run > <cwd>/data/Test1.d.ts 1`] = `
+declare const _: {
+  "name": "Test1",
+  "type": "programming",
+  "color": "#814CCC",
+  "aliases": [
+    "hello"
+  ],
+  "extensions": [
+    ".bsl",
+    ".os"
+  ],
+  "tmScope": "source.bsl",
+  "aceMode": "text",
+  "languageId": 0
+}
+export = _
+`;
+
+exports[`run > <cwd>/data/Test1.js 1`] = `
+module.exports = {
+  "name": "Test1",
+  "type": "programming",
+  "color": "#814CCC",
+  "aliases": [
+    "hello"
+  ],
+  "extensions": [
+    ".bsl",
+    ".os"
+  ],
+  "tmScope": "source.bsl",
+  "aceMode": "text",
+  "languageId": 0
+}
+`;
+
+exports[`run > <cwd>/data/Test1.mjs 1`] = `
+export default {
+  "name": "Test1",
+  "type": "programming",
+  "color": "#814CCC",
+  "aliases": [
+    "hello"
+  ],
+  "extensions": [
+    ".bsl",
+    ".os"
+  ],
+  "tmScope": "source.bsl",
+  "aceMode": "text",
+  "languageId": 0
+}
+`;
+
+exports[`run > <cwd>/lib/index.d.mts 1`] = `
+type LanguageName =
+  | "Test1"
+  | "Test Test 2"
+  | "F*"
+
+export interface Language {
+  name: string
+  /**
+   * Either data, programming, markup, prose, or nil
+   */
+  type: string
+  color: string
+  /**
+   * An Array of additional aliases (implicitly
+   * includes name.downcase)
+   */
+  aliases?: string[]
+  extensions: string[]
+  tmScope?: string
+  /**
+   * A String name of the Ace Mode used for highlighting whenever
+   * a file is edited. This must match one of the filenames in http://git.io/3XO_Cg.
+   * Use "text" if a mode does not exist.
+   */
+  aceMode: string
+  languageId: number
+  wrap?: boolean
+  /**
+   * Optional field. Only necessary as a replacement for the sample directory name if the
+   * language name is not a valid filename under the Windows filesystem (e.g., if it
+   * contains an asterisk).
+   */
+  fsName?: string
+}
+
+declare const languages: Record<LanguageName, Language>
+
+export default languages
+`;
+
+exports[`run > <cwd>/lib/index.d.ts 1`] = `
+type LanguageName =
+  | "Test1"
+  | "Test Test 2"
+  | "F*";
+
+declare const LinguistLanguages: Record<LanguageName, LinguistLanguages.Language>;
+
+declare namespace LinguistLanguages {
+  interface Language {
+    name: string
+    /**
+     * Either data, programming, markup, prose, or nil
+     */
+    type: string
+    color: string
+    /**
+     * An Array of additional aliases (implicitly
+     * includes name.downcase)
+     */
+    aliases?: string[]
+    extensions: string[]
+    tmScope?: string
+    /**
+     * A String name of the Ace Mode used for highlighting whenever
+     * a file is edited. This must match one of the filenames in http://git.io/3XO_Cg.
+     * Use "text" if a mode does not exist.
+     */
+    aceMode: string
+    languageId: number
+    wrap?: boolean
+    /**
+     * Optional field. Only necessary as a replacement for the sample directory name if the
+     * language name is not a valid filename under the Windows filesystem (e.g., if it
+     * contains an asterisk).
+     */
+    fsName?: string
+  }
+}
+
+export = LinguistLanguages;
+`;
+
+exports[`run > <cwd>/lib/index.js 1`] = `
+module.exports = {
+  "Test1": require("../data/Test1"),
+  "Test Test 2": require("../data/Test Test 2"),
+  "F*": require("../data/Fstar")
+};
+`;
+
+exports[`run > <cwd>/lib/index.mjs 1`] = `
+import _0 from "../data/Test1.mjs"
+import _1 from "../data/Test%20Test%202.mjs"
+import _2 from "../data/Fstar.mjs"
+export default {
+  "Test1": _0,
+  "Test Test 2": _1,
+  "F*": _2,
+}
+`;

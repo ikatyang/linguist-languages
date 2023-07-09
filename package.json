@@ -1,7 +1,8 @@
 {
   "name": "linguist-languages",
-  "type": "module",
   "version": "7.26.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "description": "Linguist languages.yml in JSON format",
   "keywords": [
     "data",
@@ -10,8 +11,14 @@
     "linguist"
   ],
   "exports": {
-    ".": "./lib/index.js",
-    "./data/*": "./data/*.js"
+    ".": {
+      "import": "./lib/index.mjs",
+      "require": "./lib/index.js"
+    },
+    "./data/*": {
+      "import": "./data/*.mjs",
+      "require": "./data/*.js"
+    }
   },
   "repository": "https://github.com/ikatyang/linguist-languages",
   "homepage": "https://github.com/ikatyang/linguist-languages#readme",
@@ -26,7 +33,7 @@
     "lint": "prettier --check .",
     "check": "tsc --noEmit",
     "test": "vitest",
-    "build": "vite-node ./scripts/generate.ts -- run"
+    "build": "vite-node ./scripts/generate.mts -- run"
   },
   "dependencies": {},
   "devDependencies": {
@@ -42,9 +49,6 @@
     "vite-node": "0.33.0",
     "vitest": "0.33.0",
     "yaml": "2.3.1"
-  },
-  "engines": {
-    "node": ">=16"
   },
   "files": [
     "/lib/**/*",
