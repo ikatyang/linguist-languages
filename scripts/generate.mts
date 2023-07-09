@@ -5,7 +5,7 @@ import camelcase from 'camelcase'
 import { deleteSync } from 'del'
 import mkdir from 'make-dir'
 import { parse } from 'yaml'
-import { getFieldType, Field, indent } from './utils.js'
+import { getFieldType, Field, indent } from './utils.mjs'
 
 const OUTPUT_LIB_DIRNAME = path.resolve(__dirname, '../lib')
 const OUTPUT_DATA_DIRNAME = path.resolve(__dirname, '../data')
@@ -137,6 +137,21 @@ export function run(options?: {
 
   write(
     path.resolve(OUTPUT_LIB_DIRNAME, 'index.js'),
+    `module.exports = {\n${languages
+      .map(
+        language =>
+          `  ${JSON.stringify(language.name)}: require(${JSON.stringify(
+            path.join(
+              path.relative(OUTPUT_LIB_DIRNAME, OUTPUT_DATA_DIRNAME),
+              getDataBasename(language),
+            ),
+          )})`,
+      )
+      .join(',\n')}\n};`,
+  )
+
+  write(
+    path.resolve(OUTPUT_LIB_DIRNAME, 'index.mjs'),
     [
       ...languages.map(
         (_, i) =>
@@ -144,7 +159,7 @@ export function run(options?: {
             `${path.join(
               path.relative(OUTPUT_LIB_DIRNAME, OUTPUT_DATA_DIRNAME),
               encodeURIComponent(getDataBasename(_)),
-            )}.js`,
+            )}.mjs`,
           )}`,
       ),
       `export default {`,
@@ -152,10 +167,28 @@ export function run(options?: {
       `}`,
     ].join('\n'),
   )
-  ;(() => {
+
+  {
+    const namespaceIdentifier = 'LinguistLanguages'
     const languageNameIdentifier = 'LanguageName'
+
     write(
       path.resolve(OUTPUT_LIB_DIRNAME, 'index.d.ts'),
+      [
+        `type ${languageNameIdentifier} =\n${indent(
+          languages
+            .map(language => `| ${JSON.stringify(language.name)}`)
+            .join('\n'),
+        )};`,
+        `declare const ${namespaceIdentifier}: Record<${languageNameIdentifier}, ${namespaceIdentifier}.${interfaceIdentifier}>;`,
+        `declare namespace ${namespaceIdentifier} {\n${indent(
+          createInterface(),
+        )}\n}`,
+        `export = ${namespaceIdentifier};`,
+      ].join('\n\n'),
+    )
+    write(
+      path.resolve(OUTPUT_LIB_DIRNAME, 'index.d.mts'),
       [
         `type ${languageNameIdentifier} =\n${indent(
           languages
@@ -191,13 +224,31 @@ export function run(options?: {
     function createFieldDefinition(field: Field) {
       return field.type === 'array' ? `${field.subType}[]` : field.type
     }
-  })()
+  }
 
   languages.forEach(language => {
     const basename = getDataBasename(language)
     write(
       path.resolve(OUTPUT_DATA_DIRNAME, `${basename}.js`),
+      `module.exports = ${JSON.stringify(language, null, 2)}`,
+    )
+    write(
+      path.resolve(OUTPUT_DATA_DIRNAME, `${basename}.d.ts`),
+      [
+        `declare const _: ${JSON.stringify(language, null, 2)}`,
+        'export = _',
+      ].join('\n'),
+    )
+    write(
+      path.resolve(OUTPUT_DATA_DIRNAME, `${basename}.mjs`),
       `export default ${JSON.stringify(language, null, 2)}`,
+    )
+    write(
+      path.resolve(OUTPUT_DATA_DIRNAME, `${basename}.d.mts`),
+      [
+        `declare const _: ${JSON.stringify(language, null, 2)}`,
+        'export default _',
+      ].join('\n'),
     )
   })
 
